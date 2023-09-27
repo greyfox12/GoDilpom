@@ -23,7 +23,7 @@ type TRequest struct {
 }
 
 // Отправить Запрос
-func GetRequest(orderNum string, cfg getparam.ApiParam) (*TRequest, error) {
+func GetRequest(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 	var bk TRequest
 
 	client := &http.Client{
@@ -65,7 +65,7 @@ func GetRequest(orderNum string, cfg getparam.ApiParam) (*TRequest, error) {
 }
 
 // Повторяю при ошибках вывод
-func Resend(orderNum string, cfg getparam.ApiParam) (*TRequest, error) {
+func Resend(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 	var err error
 	var bk *TRequest
 
@@ -103,7 +103,7 @@ func WaitSec(period int) int {
 }
 
 // Запрашиваю базу номер заказа
-func GetOrderNumber(db *sql.DB, cfg getparam.ApiParam) error {
+func GetOrderNumber(db *sql.DB, cfg getparam.APIParam) error {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 

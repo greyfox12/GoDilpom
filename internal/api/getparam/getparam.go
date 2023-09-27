@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-type ApiParam struct {
+type APIParam struct {
 	ServiceAddress        string
 	AccurualSystemAddress string
 	DSN                   string
@@ -16,11 +16,11 @@ type ApiParam struct {
 	IntervalAccurual      int // Интервал в секудах опроса системы начисления баллов
 }
 
-func Param(sp *ApiParam) ApiParam {
+func Param(sp *APIParam) APIParam {
 	//	var cfg string
 	var ok bool
 	var tStr string
-	var cfg ApiParam
+	var cfg APIParam
 
 	cfg.AccurualTimeReset = 120 //120 секунд
 	cfg.IntervalAccurual = 10   // 10 секунд

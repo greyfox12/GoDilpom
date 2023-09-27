@@ -57,7 +57,7 @@ func RegisterPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 		}
 		if vRegister.Login == "" || vRegister.Password == "" {
 			fmt.Printf("Error login/passwd %v/%v \n", vRegister.Login, vRegister.Password)
-			logmy.OutLog(fmt.Errorf("registerpage: login/passwd: %w/%w", vRegister.Login, vRegister.Password))
+			logmy.OutLog(fmt.Errorf("registerpage: login/passwd: %v/%v", vRegister.Login, vRegister.Password))
 			res.WriteHeader(400)
 			return
 		}

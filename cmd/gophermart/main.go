@@ -44,7 +44,7 @@ func serverStart() {
 	var db *sql.DB
 	var authGen hash.AuthGen
 
-	apiParam := getparam.ApiParam{
+	apiParam := getparam.APIParam{
 		ServiceAddress:        defServiceAddress,
 		AccurualSystemAddress: defAccurualSystemAddress,
 		DSN:                   defDSN,
@@ -80,7 +80,7 @@ func serverStart() {
 
 	// запускаю Опрос системы начисления баллов
 
-	go func(*sql.DB, getparam.ApiParam) {
+	go func(*sql.DB, getparam.APIParam) {
 
 		ticker := time.NewTicker(time.Second * time.Duration(apiParam.IntervalAccurual))
 		defer ticker.Stop()

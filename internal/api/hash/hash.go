@@ -76,7 +76,7 @@ func (h *AuthGen) CreateToken(login string) (string, error) {
 	return tokenString, nil
 }
 
-func (h *AuthGen) GetUserId(tokenString string) string {
+func (h *AuthGen) GetUserID(tokenString string) string {
 	claims := &Claims{}
 	token, err := jwt.ParseWithClaims(tokenString, claims,
 		func(t *jwt.Token) (interface{}, error) {
@@ -150,20 +150,20 @@ func (h *AuthGen) CheckAuth(token string) (string, int) {
 		return "", 401
 	}
 
-	token_buf := strings.Split(token, " ")
-	if len(token_buf) != 2 {
-		logmy.OutLog(fmt.Errorf("checkauth: unknow format autorization head: %w", token))
+	tokenBuf := strings.Split(token, " ")
+	if len(tokenBuf) != 2 {
+		logmy.OutLog(fmt.Errorf("checkauth: unknow format autorization head: %v", token))
 		return "", 401
 	}
 
-	if token_buf[0] != "Bearer" {
-		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %w", token_buf[0]))
+	if tokenBuf[0] != "Bearer" {
+		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
 		return "", 401
 	}
 
-	login := h.GetUserId(token_buf[1])
+	login := h.GetUserID(tokenBuf[1])
 	if login == "" {
-		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %w", token_buf[0]))
+		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
 		return "", 401
 	}
 

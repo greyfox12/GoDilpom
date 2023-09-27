@@ -401,7 +401,7 @@ func GetOrderExec(ctx context.Context, db *sql.DB) (string, error) {
 }
 
 // Сборсить не обработанные задания в ночальное состояние
-func ResetOrders(ctx context.Context, db *sql.DB, orderNum string, cfg getparam.ApiParam) error {
+func ResetOrders(ctx context.Context, db *sql.DB, orderNum string, cfg getparam.APIParam) error {
 
 	rows, err := QueryDBRet(ctx, db, "UPDATE orders SET order_status = 'NEW', update_at = now() "+
 		" WHERE order_number = $1 OR (order_status = 'PROCESSING' and trunc(EXTRACT( "+
