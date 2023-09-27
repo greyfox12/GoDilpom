@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/greyfox12/Gophermart/internal/api/logmy"
+	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 )
 
 // MD5 hash

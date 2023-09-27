@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/greyfox12/Gophermart/internal/api/getparam"
-	"github.com/greyfox12/Gophermart/internal/api/logmy"
+	"github.com/greyfox12/GoDiplom/internal/api/getparam"
+	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"github.com/jackc/pgerrcode"
 	"github.com/jackc/pgx/v5/pgconn"
 	_ "github.com/lib/pq"
@@ -28,7 +28,7 @@ func CreateDB(db *sql.DB) error {
 	fmt.Printf("Create DB\n")
 
 	// заглушка по путям для выполнения на сервере или локально
-	if strings.HasPrefix(pwd, "c:\\Gophermart") {
+	if strings.HasPrefix(pwd, "c:\\GoDiplom") {
 		path = "../../internal/api/dbstore/Script.sql"
 	} else {
 		path = "./internal/api/dbstore/Script.sql"

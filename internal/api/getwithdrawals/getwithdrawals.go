@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/greyfox12/Gophermart/internal/api/dbstore"
-	"github.com/greyfox12/Gophermart/internal/api/hash"
-	"github.com/greyfox12/Gophermart/internal/api/logmy"
+	"github.com/greyfox12/GoDiplom/internal/api/dbstore"
+	"github.com/greyfox12/GoDiplom/internal/api/hash"
+	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 )
 
 func GetWithdrawalsPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
