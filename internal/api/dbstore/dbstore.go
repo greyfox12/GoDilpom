@@ -423,7 +423,7 @@ func ResetOrders(ctx context.Context, db *sql.DB, orderNum string, cfg getparam.
 }
 
 // Добавить новое начисление баллов
-func SetOrders(ctx context.Context, db *sql.DB, order string, status string, accrual int) error {
+func SetOrders(ctx context.Context, db *sql.DB, order string, status string, accrual float32) error {
 	var ret int
 
 	rows, err := QueryDBRet(ctx, db, "select add_accrual($1, $2, $3)", order, status, accrual)
