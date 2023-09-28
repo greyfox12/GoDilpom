@@ -16,8 +16,8 @@ import (
 )
 
 type TRequest struct {
-	Order string `json:"order"`
-	Sum   int    `json:"sum"`
+	Order string  `json:"order"`
+	Sum   float32 `json:"sum"`
 }
 
 func DebitingPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
@@ -80,12 +80,12 @@ func DebitingPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 		}
 
 		// Проверка алгоритмом Луна
-		if !hash.ValidLunaStr(vRequest.Order) {
-			logmy.OutLog(fmt.Errorf("debitingpage: number incorrect: %v", vRequest.Order))
-			res.WriteHeader(422)
-			return
-		}
-
+		/*		if !hash.ValidLunaStr(vRequest.Order) {
+					logmy.OutLog(fmt.Errorf("debitingpage: number incorrect: %v", vRequest.Order))
+					res.WriteHeader(422)
+					return
+				}
+		*/
 		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 		defer cancel()
 

@@ -300,7 +300,7 @@ func GetBalance(ctx context.Context, db *sql.DB, login string) ([]byte, int) {
 }
 
 // Списание балов
-func Debits(ctx context.Context, db *sql.DB, login string, ordNum string, summ int) (int, error) {
+func Debits(ctx context.Context, db *sql.DB, login string, ordNum string, summ float32) (int, error) {
 	var ret int
 
 	rows, err := QueryDBRet(ctx, db, "SELECT debeting($1, $2, $3) counter", login, ordNum, summ)
@@ -326,9 +326,9 @@ func Debits(ctx context.Context, db *sql.DB, login string, ordNum string, summ i
 }
 
 type tWithdrawals struct {
-	Order       string `json:"number"`
-	Sum         int    `json:"status"`
-	ProcessedAt string `json:"processed_at"`
+	Order       string  `json:"number"`
+	Sum         float32 `json:"sum"`
+	ProcessedAt string  `json:"processed_at"`
 }
 
 // Список Списаний балов
