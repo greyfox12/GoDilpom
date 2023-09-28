@@ -148,7 +148,7 @@ AS $function$
       set order_status = status,
           accrual  = summ,
           update_at = now()
-    where o.order_number = ordernum;
+    where order_number = ordernum;
    
     update user_ref 
     set ballans  = ballans  + summa
