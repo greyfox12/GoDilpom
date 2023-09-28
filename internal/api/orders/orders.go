@@ -59,12 +59,12 @@ func LoadOrderPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 		}
 
 		// Проверка алгоритмом Луна
-		/*		if !hash.ValidLunaStr(string(body[0:n])) {
-					logmy.OutLog(fmt.Errorf("orders: number incorrect: %v", string(body[0:n])))
-					res.WriteHeader(422)
-					return
-				}
-		*/
+		if !hash.ValidLunaStr(string(body[0:n])) {
+			logmy.OutLog(fmt.Errorf("orders: number incorrect: %v", string(body[0:n])))
+			res.WriteHeader(422)
+			return
+		}
+
 		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 		defer cancel()
 

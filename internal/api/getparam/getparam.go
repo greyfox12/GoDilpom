@@ -23,7 +23,7 @@ func Param(sp *APIParam) APIParam {
 	var cfg APIParam
 
 	cfg.AccurualTimeReset = 120 //120 секунд
-	cfg.IntervalAccurual = 10   // 10 секунд
+	cfg.IntervalAccurual = 1    // 10 секунд
 
 	if cfg.ServiceAddress, ok = os.LookupEnv("RUN_ADDRESS"); !ok {
 		cfg.ServiceAddress = sp.ServiceAddress
