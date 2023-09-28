@@ -126,21 +126,31 @@ func ValidLunaStr(vpan string) bool {
 
 	x := 0
 	s := 0
-	for i, r := range strings.Split(vpan, "") {
+	vp := Reverse(vpan)
+	for i, r := range strings.Split(vp, "") {
 		x, _ = strconv.Atoi(r)
-		if i%2 == 0 {
+		//		fmt.Printf("x=%v i=%v\n", x, i)
+		if i%2 != 0 {
 			x = x * 2
 			if x > 9 {
 				x = x - 9
 			}
 		}
 		s = s + x
+		//		fmt.Printf("s=%v\n", s)
 	}
 	s = 10 - s%10
 	if s == 10 {
 		s = 0
 	}
 	return s == 0
+}
+func Reverse(s string) string {
+	runes := []rune(s)
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
+		runes[i], runes[j] = runes[j], runes[i]
+	}
+	return string(runes)
 }
 
 // Проверяю токен
