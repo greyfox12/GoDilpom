@@ -151,7 +151,7 @@ AS $function$
     where order_number = ordernum;
    
     update user_ref 
-    set ballans  = ballans  + summa
+    set ballans  = ballans  + summ
     where user_id = p_user_id;
    
    return 0;
