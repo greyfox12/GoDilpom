@@ -5390,3 +5390,1281 @@
 {"level":"info","ts":1695931807.8219965,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
 {"level":"info","ts":1695931807.8243062,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
 {"level":"info","ts":1695931807.826203,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931808.821352,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931808.824509,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931808.8275156,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931809.821163,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931809.8239007,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931809.8262503,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931810.820869,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931810.823263,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931810.825535,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931811.8211784,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931811.8235257,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931811.825834,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931812.8206017,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931812.822574,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931812.8251686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931813.8221712,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931813.8248203,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931813.8267813,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931814.8195093,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931814.8211923,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931814.8226936,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931815.8234918,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931815.8258674,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931815.8282301,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931816.820281,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931816.822853,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931816.825788,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931817.8203018,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931817.8219385,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931817.824185,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931818.8220425,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931818.824085,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931818.8263164,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931819.8206356,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931819.8222787,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931819.8240635,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931820.8201325,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931820.8231473,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931820.8254797,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931821.8222733,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931821.8247497,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931821.8272645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931822.8195918,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931822.8207407,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931822.8229747,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931823.8222892,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931823.8240142,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931823.8263447,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931824.8201375,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931824.8224993,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931824.8244102,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931825.8197038,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931825.8219845,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931825.82392,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931826.8213382,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931826.8228807,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931826.8239658,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931827.8198254,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931827.8222113,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931827.8238645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931828.8201802,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931828.8235426,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931828.8264046,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931829.821804,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931829.8240714,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931829.827252,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931830.820467,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931830.8227065,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931830.8252323,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931831.8201747,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931831.82202,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931831.8247383,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931832.8207917,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931832.8225727,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931832.8251054,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931833.8211021,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931833.8231282,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931833.825661,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931834.8200974,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931834.822359,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931834.8257885,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931835.8197608,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931835.8227303,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931835.8249454,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931836.8197653,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931836.8220913,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931836.823844,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931837.821978,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931837.8237793,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931837.8261056,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931838.8211608,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931838.823428,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931838.825537,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931839.8218725,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931839.8241477,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931839.8276837,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931840.8220544,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931840.825069,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931840.8277197,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931841.8197687,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931841.8214183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931841.8231213,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931842.8206832,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931842.8229375,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931842.8253024,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931843.8195848,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931843.8216166,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931843.8239026,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931844.8204777,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931844.8228412,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931844.8256843,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931845.82005,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931845.8216717,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931845.8228743,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931846.820129,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931846.8233285,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931846.8257024,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931847.8202338,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931847.8224437,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931847.8243177,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931848.8219168,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931848.824904,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931848.82708,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931849.82257,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931849.8244607,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931849.8268495,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931850.8202865,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931850.8220649,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931850.8249881,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931851.8212597,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931851.8232825,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931851.8263628,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931852.8214877,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931852.8250577,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931852.8280554,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931853.8207102,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931853.823229,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931853.8262196,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931854.8204534,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931854.8229716,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931854.8249693,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931855.8213973,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931855.8230207,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931855.8260128,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931856.8209784,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931856.8232713,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931856.8252692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931857.821141,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931857.8232145,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931857.826208,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931858.8229196,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931858.8259013,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931858.8279104,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931859.8192225,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931859.8207288,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931859.822747,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931860.8204305,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931860.8222024,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931860.8242009,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931861.8186345,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931861.8200448,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931861.8220448,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931862.818707,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931862.819222,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931862.82122,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931863.8189712,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931863.820145,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931863.8211544,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931864.8213508,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931864.8239207,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931864.8269107,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931865.820677,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931865.823189,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931865.825183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931866.820963,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931866.8224826,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931866.825026,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931867.8198383,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931867.8213708,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931867.8245687,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931868.8220463,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931868.8240356,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931868.82603,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931869.8208492,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931869.8233657,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931869.8247592,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931870.8203673,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931870.8226516,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931870.8266344,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931871.8228183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931871.8263402,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931871.828325,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931872.8220003,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931872.823524,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931872.8267922,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931873.8214636,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931873.8229935,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931873.8249876,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931874.822079,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931874.8235967,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931874.8265874,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931875.820232,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931875.8224003,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931875.8252683,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931876.8203008,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931876.8227353,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931876.8257403,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931877.8201115,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931877.822638,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931877.8248806,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931878.8216355,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931878.8237832,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931878.825587,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931879.8215613,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931879.8241427,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931879.826599,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931880.8202536,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931880.8219676,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931880.8248315,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931881.8205855,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931881.8222003,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931881.8251321,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931882.8193147,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931882.8215516,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931882.823266,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931883.8222575,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931883.8242116,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931883.8266733,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931884.820971,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931884.8226836,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931884.8249815,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931885.8199089,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931885.8215048,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931885.822559,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931886.8210552,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931886.8232777,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931886.8255293,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931887.82041,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931887.8227146,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931887.8249667,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931888.8221235,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931888.8238816,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931888.8262339,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931889.821081,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931889.8236873,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931889.8264315,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931890.821326,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931890.8234825,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931890.8255599,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931891.8213875,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931891.8237956,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931891.8256009,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931892.819448,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931892.8217494,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931892.8235102,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931893.8229454,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931893.825336,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931893.8272371,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931894.8210607,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931894.8230398,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931894.826022,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931895.8204186,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931895.8220658,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931895.8237352,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931896.8216407,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931896.8244143,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931896.8267007,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931897.8220944,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931897.8240542,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931897.8266237,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931898.82218,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931898.82402,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931898.8264036,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931899.8205314,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931899.8227665,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931899.8257432,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931900.8202198,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931900.8221617,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931900.824512,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931901.8189218,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931901.8202488,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931901.8218682,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931902.8236935,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931902.826212,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931902.828761,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931903.8209615,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931903.823238,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931903.826198,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931904.8199599,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931904.8222983,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931904.824757,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931905.8208127,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931905.8232512,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931905.8257208,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931906.8201041,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931906.8224459,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931906.824898,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931907.8208175,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931907.8239017,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931907.8266654,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931908.8222427,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931908.8245032,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931908.8270147,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931909.8209643,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931909.8231761,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931909.8262162,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931910.8211954,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931910.8235643,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931910.826073,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931911.8199692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931911.8225167,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931911.8241801,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931912.8215277,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931912.8239205,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931912.8267095,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931913.8207183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931913.823809,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931913.8267255,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931914.8232443,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931914.8264513,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931914.828865,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931915.822564,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931915.824901,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931915.8272793,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931916.8207319,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931916.8226418,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931916.8247964,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931917.8234963,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931917.8256147,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931917.8279805,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931918.8200605,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931918.8224313,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931918.8244905,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931919.8211434,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931919.8240497,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931919.826918,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931920.8219273,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931920.824414,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931920.8274293,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931921.8215232,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931921.8240376,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931921.8268898,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931922.8204272,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931922.822366,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931922.8246846,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931923.8219388,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931923.824063,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931923.8269846,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931924.8196476,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931924.8206923,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931924.8223002,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931925.818515,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931925.8200696,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931925.821099,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931926.8224955,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931926.8244786,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931926.8274765,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931927.819313,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931927.8208215,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931927.8228152,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931928.820394,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931928.822092,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931928.8243573,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931929.8210294,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931929.8227627,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931929.8255901,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931930.8210025,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931930.823548,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931930.8258762,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931931.8215673,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931931.8246067,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931931.828176,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931932.8200095,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931932.8229299,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931932.8254907,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931933.8211167,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931933.8236444,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931933.8269007,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931934.8217797,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931934.8243122,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931934.8273602,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931935.8203604,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931935.8230917,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931935.825558,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931936.8208783,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931936.822715,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931936.8255248,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931937.821909,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931937.824319,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931937.827269,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931938.8225448,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931938.8252318,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931938.8276496,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931939.821159,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931939.823151,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931939.8253672,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931940.8214786,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931940.8235567,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931940.8260164,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931941.8198435,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931941.8222244,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931941.8247669,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931942.8206818,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931942.822701,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931942.825213,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931943.8245668,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931943.8360934,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931943.8441396,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931944.8201203,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931944.8231423,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931944.8256762,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931945.8228078,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931945.8251135,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931945.8270195,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931946.8209913,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931946.823505,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931946.8258011,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931947.8212218,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931947.823596,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931947.8262753,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931948.820991,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931948.8228428,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931948.8245893,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931949.821399,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931949.8243532,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931949.8263516,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931950.8205132,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931950.823034,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931950.8260248,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931951.822015,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931951.8245473,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931951.8275828,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931952.8229282,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931952.8244815,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931952.8274558,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931953.8202503,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931953.821783,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931953.8247685,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931954.8218186,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931954.8236556,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931954.8259244,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931955.8202324,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931955.8223543,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931955.8248768,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931956.8212929,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931956.8235512,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931956.8267817,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931957.821595,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931957.8239145,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931957.8262112,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931958.8234093,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931958.82583,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931958.828401,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931959.8207948,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931959.822706,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931959.8250787,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931960.8187947,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931960.8204088,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931960.8210745,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931961.8202503,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931961.8221166,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931961.824494,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931962.820193,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931962.8225346,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931962.8257067,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931963.8209803,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931963.8241591,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931963.826528,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931964.8209457,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931964.8238792,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931964.8267958,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931965.819773,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931965.8221936,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931965.824639,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931966.8213763,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931966.8236575,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931966.8256865,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931967.8215733,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931967.8242667,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931967.8271708,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931968.8228657,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931968.8271587,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931968.8300319,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931969.823315,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931969.8261645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931969.8291094,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931970.820638,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931970.823165,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931970.825736,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931971.8208902,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931971.8232737,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931971.826161,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931972.8210902,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931972.8235848,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931972.8259945,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931973.8217602,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931973.8241322,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931973.8276148,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931974.8212368,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931974.8243072,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931974.827378,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931975.8215003,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931975.8245535,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931975.826893,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931976.821774,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931976.8241162,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931976.8265877,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931977.8191643,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931977.8212037,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931977.8230162,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931978.8225749,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931978.8251593,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931978.8277817,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931979.8202372,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931979.823259,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931979.826139,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931980.8218634,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931980.8251061,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931980.827432,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931981.8210459,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931981.823899,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931981.8267927,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931982.8206732,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931982.8228872,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931982.8251424,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931983.8222318,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931983.824591,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931983.8272142,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931984.8226042,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931984.825239,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931984.828647,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931985.8206089,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931985.8237252,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931985.8261998,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931986.8213634,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931986.823335,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931986.8265567,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931987.8231122,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931987.8259985,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931987.8286264,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931988.8220606,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931988.8240778,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931988.8266923,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931989.819268,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931989.8210678,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931989.8224072,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931990.819179,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931990.8212137,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931990.8229623,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931991.8189173,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931991.820459,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931991.8214824,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931992.8189244,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931992.820605,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931992.8223705,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931993.8196442,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931993.8206878,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931993.822524,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931994.8206732,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931994.8240407,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931994.8263314,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931995.8203332,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931995.8222466,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931995.8247166,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931996.8204896,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931996.823072,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931996.8253593,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695931997.8218389,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931997.8244405,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931997.8270028,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695931998.8225374,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931998.8251312,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931998.8279033,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695931999.8217928,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695931999.825064,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695931999.8275268,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932000.8217604,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932000.823832,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932000.8269594,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932001.8212736,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932001.8239048,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932001.8264036,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932002.8205783,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932002.8229485,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932002.825566,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932003.819895,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932003.8217962,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932003.823082,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932004.8204482,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932004.82289,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932004.825607,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932005.8224313,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932005.8248265,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932005.8278897,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932006.8207102,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932006.8229847,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932006.8253362,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932007.8199332,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932007.8223972,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932007.8248181,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932008.8226016,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932008.8254638,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932008.827879,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932009.8207805,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932009.822921,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932009.8253565,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932010.8204877,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932010.8228083,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932010.8255317,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932011.8203151,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932011.822711,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932011.825523,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932012.8223429,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932012.8248217,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932012.8272731,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932013.822669,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932013.8251736,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932013.8278496,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932014.8212276,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932014.823118,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932014.8256245,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932015.8191385,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932015.8209534,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932015.8226147,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932016.8206265,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932016.822258,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932016.8246756,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932017.8209593,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932017.8241253,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932017.8271804,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932018.8218899,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932018.8241482,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932018.8266482,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932019.8205526,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932019.8226354,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932019.824942,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932020.8209429,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932020.822901,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932020.8250492,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932021.8209374,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932021.8233645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932021.825879,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932022.8216515,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932022.8239436,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932022.8262382,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932023.820915,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932023.8232388,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932023.8260663,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932024.8214538,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932024.8237562,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932024.8260038,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932025.8208683,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932025.8231947,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932025.826276,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932026.8213298,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932026.823841,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932026.8250258,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932027.8200104,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932027.8226166,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932027.8253567,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932028.8199296,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932028.8220987,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932028.8241198,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932029.8200686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932029.8226829,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932029.8252203,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932030.8203177,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932030.8226306,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932030.8250973,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932031.8208845,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932031.8232012,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932031.825671,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932032.8196225,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932032.8219845,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932032.8240561,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932033.8201082,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932033.8226354,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932033.824982,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932034.819984,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932034.823038,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932034.8254917,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932035.820896,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932035.8238866,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932035.8264227,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932036.8215427,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932036.8238726,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932036.8261428,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932037.821525,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932037.8238153,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932037.8261771,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932038.822717,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932038.825047,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932038.8275955,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932039.8200953,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932039.8220468,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932039.8243566,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932040.8207502,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932040.823046,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932040.8254035,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932041.8212373,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932041.8236759,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932041.8272474,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932042.8213475,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932042.8237073,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932042.8259974,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932043.8212218,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932043.8229997,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932043.8260024,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932044.8213503,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932044.8237443,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932044.8261185,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932045.8210182,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932045.823472,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932045.8259854,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932046.820731,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932046.822427,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932046.824854,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932047.8202913,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932047.8221927,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932047.8251233,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932048.8226874,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932048.8251963,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932048.827808,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932049.8196764,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932049.8212886,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932049.8228476,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932050.8222325,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932050.8242185,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932050.8266528,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932051.8200655,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932051.822467,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932051.8244133,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932052.8213937,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932052.823432,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932052.8258233,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932053.823438,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932053.8257663,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932053.828939,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932054.8195724,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932054.821479,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932054.8232942,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932055.82066,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932055.822926,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932055.8250945,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932056.8186183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932056.8205166,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932056.821967,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932057.8207936,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932057.8231099,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932057.8247278,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932058.820248,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932058.8220425,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932058.8233771,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932059.8256092,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932059.8281686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932059.8299854,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932060.819567,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932060.8212469,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932060.8228817,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932061.8212607,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932061.8236427,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932061.8254797,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932062.8206902,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932062.8228686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932062.8246412,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932063.8222866,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932063.8246439,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932063.8267875,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932064.8206997,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932064.8230116,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932064.8254282,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932065.820611,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932065.8231018,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932065.826046,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932066.821958,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932066.824539,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932066.826818,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932067.8193157,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932067.8210921,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932067.8228886,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932068.8216078,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932068.824091,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932068.8261008,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932069.8204165,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932069.822253,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932069.8246565,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932070.822471,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932070.8244035,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932070.827153,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932071.8205738,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932071.8230298,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932071.8251245,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932072.8195605,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932072.8214104,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932072.8233879,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932073.8208091,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932073.8233244,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932073.8257067,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932074.819611,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932074.8219283,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932074.8238595,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932075.8192081,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932075.8214352,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932075.8224854,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932076.8200617,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932076.821099,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932076.8228242,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932077.8218825,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932077.824345,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932077.8268697,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932078.8236575,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932078.826181,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932078.8281758,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932079.819229,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932079.8207405,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932079.822737,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932080.8194404,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932080.8213623,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932080.8226297,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932081.8193574,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932081.8210146,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932081.8222485,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932082.82168,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932082.823909,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932082.8252165,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932083.8202944,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932083.8227172,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932083.8249454,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932084.8196886,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932084.8214564,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932084.823741,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932085.8202984,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932085.8224692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932085.8241882,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932086.8205364,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932086.8221931,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932086.8245442,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932087.8185074,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932087.8206491,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932087.821682,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932088.8214889,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932088.8234842,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932088.8259385,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932089.8211906,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932089.823626,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932089.8255298,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932090.8192904,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932090.8209872,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932090.822595,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932091.8220937,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932091.8247342,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932091.8270397,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932092.8204618,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932092.8228438,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932092.8251164,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932093.820506,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932093.8229609,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932093.8253548,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932094.8211336,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932094.8234112,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932094.8263645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932095.819173,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932095.8208575,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932095.8221474,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932096.8201098,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932096.8226442,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932096.8246346,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932097.8217535,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932097.824276,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932097.8272765,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932098.8223507,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932098.8248663,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932098.8268616,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932099.8202524,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932099.821776,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932099.8247669,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932100.8229506,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932100.825471,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932100.8274655,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932101.8205643,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932101.823089,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932101.8250275,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932102.8213243,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932102.823844,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932102.8258395,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932103.8186839,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932103.8205376,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932103.8215346,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932104.8208725,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932104.8233888,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932104.8253927,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932105.8202388,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932105.822766,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932105.8247542,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932106.821185,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932106.8227067,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932106.825707,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932107.8190663,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932107.8205702,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932107.8215668,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932108.8208077,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932108.8223288,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932108.8243237,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932109.8218002,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932109.8246465,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932109.8276412,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932110.8200269,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932110.8215382,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932110.8237805,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932111.820052,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932111.821572,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932111.8245637,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932112.8197587,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932112.821423,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932112.823421,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932113.8208704,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932113.8224347,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932113.8266816,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932114.8207734,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932114.822304,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932114.8255246,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932115.8207948,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932115.8233252,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932115.8253248,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932116.821692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932116.8236637,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932116.8256671,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932117.8216019,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932117.8241343,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932117.8270109,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932118.8203611,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932118.822654,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932118.824631,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932119.8189988,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932119.8209605,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932119.822761,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932120.8202672,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932120.8225996,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932120.8244648,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932121.8192987,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932121.820873,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932121.8225765,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932122.8199039,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932122.8215113,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932122.8233938,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932123.8198032,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932123.820801,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932123.8227956,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932124.8207703,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932124.8231862,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932124.8255599,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932125.820258,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932125.8222957,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932125.8254013,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932126.8209407,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932126.822779,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932126.8252146,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932127.821683,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932127.8241382,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932127.8271842,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932128.8220062,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932128.8238294,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932128.8267534,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932129.8214664,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932129.8238573,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932129.826325,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932130.8202338,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932130.8228118,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932130.8253825,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932131.8205256,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932131.8231258,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932131.825552,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932132.8215537,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932132.8239615,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932132.8271716,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932133.8208258,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932133.8224678,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932133.8243077,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932134.822418,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932134.8250134,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932134.827222,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932135.8235962,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932135.8260396,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932135.8286994,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932136.820431,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932136.8222344,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932136.8237162,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932137.8203416,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932137.822787,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932137.8245049,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932138.8222396,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932138.8248606,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932138.8271716,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932139.8213701,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932139.8239136,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932139.8255987,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932140.821012,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932140.8228657,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932140.8244858,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932141.8210635,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932141.823476,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932141.8254733,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932142.819644,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932142.8213089,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932142.822707,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932143.8220046,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932143.8249524,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932143.8275805,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932144.8210359,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932144.8235595,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932144.825558,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932145.8215728,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932145.8230863,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932145.825081,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932146.8193593,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932146.8208754,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932146.822869,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932147.821169,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932147.8235576,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932147.8259437,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932148.8189485,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932148.8204722,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932148.821686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932149.8208635,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932149.8234048,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932149.825799,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932150.8202908,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932150.8222637,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932150.823994,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932151.8207197,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932151.8225753,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932151.825045,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932152.8201804,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932152.8212836,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932152.8235333,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932153.8187668,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932153.8198838,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932153.8214643,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932154.8207731,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932154.8233018,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932154.825838,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932155.8196692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932155.821495,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932155.823066,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932156.8191602,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932156.8202066,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932156.82169,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932157.8204362,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932157.8219686,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932157.8231318,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932158.8212335,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932158.8229504,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932158.8245156,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932159.8206475,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932159.8223305,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932159.8239973,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932160.8184845,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932160.8195763,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932160.821339,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932161.8210673,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932161.823622,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932161.826151,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932162.8210788,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932162.8235333,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932162.826421,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932163.8210373,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932163.823619,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932163.8259237,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932164.820438,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932164.8236408,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932164.8263214,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932165.822109,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932165.8250961,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932165.8278823,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932166.8202522,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932166.822791,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932166.8252964,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932167.821794,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932167.8242908,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932167.8270257,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932168.820129,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932168.8219454,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932168.8235426,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932169.820509,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932169.8225782,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932169.8251858,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932170.823075,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932170.8251216,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932170.8275578,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932171.821773,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932171.824053,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932171.8265486,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932172.8205926,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932172.8225746,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932172.8244958,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932173.8200827,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932173.821987,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932173.8233817,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932174.8187122,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932174.8202639,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932174.821941,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932175.818974,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932175.820815,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932175.822127,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932176.8192923,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932176.821123,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932176.822238,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932177.8196967,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932177.8217542,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932177.822841,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932178.8188457,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932178.820616,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932178.8220232,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932179.8199682,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932179.822022,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932179.823611,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932180.822366,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932180.8247368,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932180.8271844,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932181.819597,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932181.8208463,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932181.8222933,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932182.819675,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932182.8214426,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932182.8229156,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932183.818867,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932183.8206856,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932183.821768,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932184.8204842,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932184.8223016,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932184.8236232,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932185.81985,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932185.8222675,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932185.8245564,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932186.819334,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932186.8209918,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932186.8229587,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932187.820337,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932187.8219957,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932187.8237464,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932188.8204734,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932188.8227143,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932188.8243537,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932189.8195076,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932189.8209305,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932189.8225183,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932190.8198593,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932190.82139,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932190.8230507,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932191.8188026,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932191.8203425,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932191.8216536,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932192.8187068,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932192.8204446,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932192.8222773,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932193.819375,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932193.8206458,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932193.8222175,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932194.8191414,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932194.8202803,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932194.8219452,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932195.8220077,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932195.824499,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932195.8266773,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932196.819426,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932196.8205955,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932196.822261,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932197.819398,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932197.8216808,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932197.8233685,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932198.822586,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932198.825336,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932198.8276181,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932199.818924,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932199.820582,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932199.8216696,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932200.8189938,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932200.820858,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932200.8227077,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932201.8201687,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932201.847695,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932201.8493204,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932202.818971,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932202.8201044,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932202.8213463,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932203.8215542,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932203.8233151,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932203.8250158,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932204.8190074,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932204.820197,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932204.8223224,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932205.8194604,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932205.821111,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932205.8228295,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932206.8204794,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932206.8222947,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932206.8244038,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932207.8204916,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932207.8223994,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932207.8248324,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932208.820757,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932208.823234,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932208.8249745,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932209.8209434,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932209.8232608,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932209.825541,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932210.819407,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932210.8216667,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932210.823555,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932211.8187106,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932211.8206398,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932211.8223355,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932212.8198953,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932212.822348,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932212.8248076,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932213.821697,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932213.8241017,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932213.8265638,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932214.821848,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932214.8242726,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932214.8263018,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932215.821252,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932215.8232129,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932215.8255098,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932216.82066,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932216.8232064,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932216.8260803,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932217.8202891,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932217.822822,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932217.82581,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932218.8223112,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932218.824705,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932218.8273146,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932219.8200576,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932219.8231645,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932219.8251796,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932220.8221595,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932220.8259244,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932220.8283179,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932221.820535,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932221.8227391,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932221.824761,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932222.8210764,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932222.823437,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932222.825857,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932223.8221283,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932223.8247461,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932223.827633,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932224.8201995,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932224.8224986,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932224.8248007,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932225.8217676,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932225.8240619,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932225.8266165,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932226.822284,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932226.824766,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932226.8272069,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932227.820596,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932227.8229692,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932227.8253691,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932228.8214347,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932228.823754,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932228.8264222,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932229.8189387,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932229.821551,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932229.8231447,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932230.8194096,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932230.8224192,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932230.8236547,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"info","ts":1695932231.8203726,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932231.8227413,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932231.8247619,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"info","ts":1695932232.8219893,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932232.8243334,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932232.8268013,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"info","ts":1695932233.8214092,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client status request: 204"}
+{"level":"info","ts":1695932233.8234606,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"post send message: client status request: 204"}
+{"level":"info","ts":1695932233.8260064,"caller":"logmy/logmy.go:97","msg":"Error:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
