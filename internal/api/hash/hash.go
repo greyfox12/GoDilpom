@@ -95,7 +95,7 @@ func (h *AuthGen) GetUserID(tokenString string) string {
 		return ""
 	}
 
-	fmt.Println("Token os valid")
+	fmt.Println("Token os valid, login: %v\n", claims.UserLogin)
 	return claims.UserLogin
 }
 
