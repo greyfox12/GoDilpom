@@ -114,10 +114,10 @@ CREATE OR REPLACE FUNCTION debeting(p_login character varying, ordernum characte
  RETURNS integer
  LANGUAGE plpgsql
 AS $function$
- declare ret integer;
+ declare ret numeric ;
 		p_user_id integer;
  begin
-	select user_id, withdrawn  into p_user_id, ret from  user_ref 
+	select user_id, ballans  into p_user_id, ret from  user_ref 
         where  login = p_login;
     
     if not found then return 401; end if;
@@ -126,7 +126,8 @@ AS $function$
     insert into withdraw (user_id, order_number, summa) VALUES(p_user_id, ordernum, summ);
 
    update user_ref u 
-      set withdrawn = withdrawn - summ
+      set withdrawn = withdrawn + summ,
+          ballans  = ballans - summ
       where u.user_id = p_user_id; 
    
    return 200;
