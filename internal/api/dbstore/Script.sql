@@ -110,3 +110,52 @@ CREATE OR REPLACE FUNCTION get_order()
 end;
 $$ language plpgsql;
 
+CREATE OR REPLACE FUNCTION debeting(p_login character varying, ordernum character varying, summ numeric)
+ RETURNS integer
+ LANGUAGE plpgsql
+AS $function$
+ declare ret integer;
+		p_user_id integer;
+ begin
+	select user_id, withdrawn  into p_user_id, ret from  user_ref 
+        where  login = p_login;
+    
+    if not found then return 401; end if;
+    if ret < summ then return 402; end if;
+   
+    insert into withdraw (user_id, order_number, summa) VALUES(p_user_id, ordernum, summ);
+
+   update user_ref u 
+      set withdrawn = withdrawn - summ
+      where u.user_id = p_user_id; 
+   
+   return 200;
+  end;
+   	$function$;
+
+CREATE OR REPLACE FUNCTION add_accrual(ordernum varchar, status varchar, summ numeric)
+ RETURNS integer
+ LANGUAGE plpgsql
+AS $function$
+ declare ret integer;
+		p_user_id integer;
+ begin
+	select o.user_id into p_user_id from orders o 
+	    where o.order_number = ordernum;
+	if not found then return 500; end if;
+    
+    update orders 
+      set order_status = status,
+          accrual  = summ,
+          update_at = now()
+    where o.order_number = ordernum;
+   
+    update user_ref 
+    set ballans  = ballans  + summa
+    where user_id = p_user_id;
+   
+   return 0;
+  end;
+   	$function$;
+   
+
