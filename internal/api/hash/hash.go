@@ -128,7 +128,7 @@ func ValidLunaStr(vpan string) bool {
 	s := 0
 	for i, r := range strings.Split(vpan, "") {
 		x, _ = strconv.Atoi(r)
-		if i%2 != 0 {
+		if i%2 == 0 {
 			x = x * 2
 			if x > 9 {
 				x = x - 9

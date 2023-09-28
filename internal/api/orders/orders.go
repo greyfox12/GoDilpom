@@ -53,14 +53,14 @@ func LoadOrderPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 		// Проверка корректности
 		numeric := regexp.MustCompile(`\d`).MatchString(string(body[0:n]))
 		if !numeric {
-			logmy.OutLog(fmt.Errorf("orders: number incorrect: %v", string(body[0:n])))
+			logmy.OutLog(fmt.Errorf("orders: number incorrect symbol: %v", string(body[0:n])))
 			res.WriteHeader(422)
 			return
 		}
 
 		// Проверка алгоритмом Луна
 		if !hash.ValidLunaStr(string(body[0:n])) {
-			logmy.OutLog(fmt.Errorf("orders: number incorrect: %v", string(body[0:n])))
+			logmy.OutLog(fmt.Errorf("orders: number incorrect luna: %v", string(body[0:n])))
 			res.WriteHeader(422)
 			return
 		}
