@@ -213,10 +213,10 @@ func LoadOrder(ctx context.Context, db *sql.DB, login string, ordNum string) (in
 }
 
 type tOrders struct {
-	Number     string `json:"number"`
-	Status     string `json:"status"`
-	Accrual    int32  `json:"accrual,omitempty"`
-	UploadedAt string `json:"uploaded_at"`
+	Number     string  `json:"number"`
+	Status     string  `json:"status"`
+	Accrual    float32 `json:"accrual,omitempty"`
+	UploadedAt string  `json:"uploaded_at"`
 }
 
 // Список нарядoв
@@ -261,7 +261,7 @@ func GetOrder(ctx context.Context, db *sql.DB, login string) ([]*tOrders, int) {
 
 type tBallance struct {
 	Current   float32 `json:"current"`
-	Withdrawn int32   `json:"withdrawn"`
+	Withdrawn float32 `json:"withdrawn"`
 }
 
 // BAllanc

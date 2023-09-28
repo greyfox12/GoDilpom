@@ -76,6 +76,7 @@ func LoadOrderPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 			return
 		}
 
+		logmy.OutLog(fmt.Errorf("orders load ok: number: %v ret:%v", string(body[0:n]), ret))
 		res.WriteHeader(ret) // тк нет возврата тела - сразу ответ без ZIP
 		res.Write(nil)
 	}

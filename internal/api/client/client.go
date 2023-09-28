@@ -27,7 +27,7 @@ func GetRequest(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 	var bk TRequest
 
 	client := &http.Client{
-		Timeout: time.Second * 10,
+		Timeout: time.Second * 20,
 	}
 	req, err := http.NewRequest("GET", cfg.AccurualSystemAddress+"/api/orders/"+orderNum, nil)
 	if err != nil {
