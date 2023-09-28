@@ -326,7 +326,7 @@ func Debits(ctx context.Context, db *sql.DB, login string, ordNum string, summ f
 }
 
 type tWithdrawals struct {
-	Order       string  `json:"number"`
+	Order       string  `json:"order"`
 	Sum         float32 `json:"sum"`
 	ProcessedAt string  `json:"processed_at"`
 }
