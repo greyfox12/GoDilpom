@@ -426,6 +426,7 @@ func ResetOrders(ctx context.Context, db *sql.DB, orderNum string, cfg getparam.
 func SetOrders(ctx context.Context, db *sql.DB, order string, status string, accrual float32) error {
 	var ret int
 
+	logmy.OutLog(fmt.Errorf("get db SetOrdes function: order:%v status:%v accrual:%v", order, status, accrual))
 	rows, err := QueryDBRet(ctx, db, "select add_accrual($1, $2, $3)", order, status, accrual)
 
 	if err != nil {
