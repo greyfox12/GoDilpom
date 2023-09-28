@@ -46,6 +46,7 @@ func GetWithdrawalsPage(db *sql.DB, authGen hash.AuthGen) http.HandlerFunc {
 			res.WriteHeader(500)
 			return
 		}
+		logmy.OutLog(fmt.Errorf("withdrawals login: %v return: %v", login, jsonData))
 		res.Header().Set("Content-Type", "application/json")
 		res.Write([]byte(jsonData))
 	}
