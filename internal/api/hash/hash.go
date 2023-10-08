@@ -1,9 +1,7 @@
 package hash
 
 import (
-	"crypto/md5"
 	"crypto/rand"
-	"encoding/hex"
 	"fmt"
 	"strconv"
 	"strings"
@@ -11,12 +9,25 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
+	"golang.org/x/crypto/bcrypt"
 )
 
 // MD5 hash
-func GetMD5Hash(text string) string {
+/*func GetMD5Hash(text string) string {
 	hash := md5.Sum([]byte(text))
 	return hex.EncodeToString(hash[:])
+}
+*/
+
+// Bcript hash
+func GetBcryptHash(text string) (string, error) {
+	hash, err := bcrypt.GenerateFromPassword([]byte(text), bcrypt.DefaultCost)
+	if err != nil {
+		return "", err
+	}
+	//	return hex.EncodeToString(hash[:]), nil
+	return string(hash), nil
+
 }
 
 // генерируем случайную последовательность байт
@@ -41,7 +52,7 @@ type LoginResponse struct {
 func (h *AuthGen) Init() error {
 	var err error
 	if h.Secretkey, err = generateRandom(32); err != nil {
-		logmy.OutLog(fmt.Errorf("error generateRandom:  %w", err))
+		logmy.OutLogError(fmt.Errorf("error generateRandom:  %w", err))
 		return err
 	}
 	return nil
@@ -71,7 +82,6 @@ func (h *AuthGen) CreateToken(login string) (string, error) {
 		return "", err
 	}
 
-	//	fmt.Printf("tokenString=%v\n", tokenString)
 	// возвращаем строку токена
 	return tokenString, nil
 }
@@ -86,16 +96,16 @@ func (h *AuthGen) GetUserID(tokenString string) string {
 			return h.Secretkey, nil
 		})
 	if err != nil {
-		logmy.OutLog(err)
+		logmy.OutLogWarn(err)
 		return ""
 	}
 
 	if !token.Valid {
-		fmt.Println("Token is not valid")
+		logmy.OutLogDebug(fmt.Errorf("generateRandom: token is not valid"))
 		return ""
 	}
 
-	fmt.Printf("Token os valid, login: %v", claims.UserLogin)
+	logmy.OutLogInfo(fmt.Errorf("generateRandom: token is valid, login: %v", claims.UserLogin))
 	return claims.UserLogin
 }
 
@@ -156,24 +166,24 @@ func Reverse(s string) string {
 // Проверяю токен
 func (h *AuthGen) CheckAuth(token string) (string, int) {
 	if token == "" {
-		logmy.OutLog(fmt.Errorf("checkauth: no autorization head"))
+		logmy.OutLogInfo(fmt.Errorf("checkauth: no autorization head"))
 		return "", 401
 	}
 
 	tokenBuf := strings.Split(token, " ")
 	if len(tokenBuf) != 2 {
-		logmy.OutLog(fmt.Errorf("checkauth: unknow format autorization head: %v", token))
+		logmy.OutLogInfo(fmt.Errorf("checkauth: unknow format autorization head: %v", token))
 		return "", 401
 	}
 
 	if tokenBuf[0] != "Bearer" {
-		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
+		logmy.OutLogInfo(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
 		return "", 401
 	}
 
 	login := h.GetUserID(tokenBuf[1])
 	if login == "" {
-		logmy.OutLog(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
+		logmy.OutLogInfo(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
 		return "", 401
 	}
 

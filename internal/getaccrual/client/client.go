@@ -11,9 +11,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/greyfox12/GoDiplom/internal/api/dbstore"
 	"github.com/greyfox12/GoDiplom/internal/api/getparam"
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
+	"github.com/greyfox12/GoDiplom/internal/db/dbcommon"
+	"github.com/greyfox12/GoDiplom/internal/db/dbstore"
 )
 
 type TRequest struct {
@@ -39,10 +40,11 @@ func GetRequest(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 		return nil, err
 	}
 
-	fmt.Printf("Head response: %v\n", response.Header)
+	//	fmt.Printf("Head response: %v\n", response.Header)
+	logmy.OutLogDebug(fmt.Errorf("Head response: %v", response.Header))
 
-	if response.StatusCode != 200 {
-		logmy.OutLog(fmt.Errorf("client status request: %v", response.StatusCode))
+	if response.StatusCode != http.StatusOK {
+		logmy.OutLogDebug(fmt.Errorf("client status request: %v", response.StatusCode))
 		return nil, fmt.Errorf("client status request: %v", response.StatusCode)
 	}
 
@@ -53,11 +55,11 @@ func GetRequest(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 		return nil, err
 	}
 
-	fmt.Println("response Body:", string(body))
-	logmy.OutLog(fmt.Errorf("client response body: %v", string(body)))
+	logmy.OutLogDebug(fmt.Errorf("client response body: %v", string(body)))
 
 	err = json.Unmarshal(body, &bk)
 	if err != nil {
+		logmy.OutLogError(fmt.Errorf("client unmarshal body: %v", string(body)))
 		return nil, err
 	}
 
@@ -71,7 +73,7 @@ func Resend(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 
 	for i := 1; i <= 4; i++ {
 		if i > 1 {
-			logmy.OutLog(fmt.Errorf("client pause: %v sec", WaitSec(i-1)))
+			logmy.OutLogDebug(fmt.Errorf("client pause: %v sec", WaitSec(i-1)))
 			time.Sleep(time.Duration(WaitSec(i-1)) * time.Second)
 		}
 
@@ -80,7 +82,7 @@ func Resend(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 			return bk, nil
 		}
 
-		logmy.OutLog(fmt.Errorf("post send message: %w", err))
+		logmy.OutLogWarn(fmt.Errorf("post send message: %w", err))
 		if _, yes := err.(net.Error); !yes {
 			return nil, err
 		}
@@ -103,31 +105,33 @@ func WaitSec(period int) int {
 }
 
 // Запрашиваю базу номер заказа
+// Основной модуль
 func GetOrderNumber(db *sql.DB, cfg getparam.APIParam) error {
-	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+
+	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(cfg.TimeoutContexDB)*time.Second)
 	defer cancel()
 
-	str, err := dbstore.GetOrderExec(ctx, db)
+	str, err := dbstore.GetOrderExec(ctx, db, cfg)
 	if err != nil {
-		logmy.OutLog(fmt.Errorf("client: getOrderExec: %w", err))
+		logmy.OutLogError(fmt.Errorf("client: getOrderExec: %w", err))
 		return err
 	}
 	if str == "" {
-		logmy.OutLog(fmt.Errorf("client: getOrderExec: orderNumber is null"))
+		logmy.OutLogDebug(fmt.Errorf("client: getOrderExec: orderNumber is null"))
 		return nil
 	}
 
 	bk, err := Resend(str, cfg)
 	if err != nil {
-		logmy.OutLog(fmt.Errorf("client: get data accrpall: orderNum=%v %w", str, err))
-		dbstore.ResetOrders(ctx, db, str, cfg)
+		logmy.OutLogInfo(fmt.Errorf("client: get data accrpall: orderNum=%v %w", str, err))
+		dbcommon.ResetOrders(ctx, db, str, cfg)
 		return err
 	}
 
-	err = dbstore.SetOrders(ctx, db, bk.Order, bk.Status, bk.Accrual)
+	err = dbstore.SetOrders(ctx, db, bk.Order, bk.Status, bk.Accrual, cfg)
 	if err != nil {
-		logmy.OutLog(fmt.Errorf("client: save accrpall: orderNum=%v %w", str, err))
-		dbstore.ResetOrders(ctx, db, str, cfg)
+		logmy.OutLogError(fmt.Errorf("client: error save accrpall: orderNum=%v %w", str, err))
+		dbcommon.ResetOrders(ctx, db, str, cfg)
 		return err
 	}
 	return nil

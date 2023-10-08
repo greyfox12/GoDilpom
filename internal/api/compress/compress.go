@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"golang.org/x/exp/slices"
 )
 
@@ -92,16 +93,11 @@ func GzipHandle(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// проверяем, что клиент поддерживает gzip-сжатие
 
-		fmt.Printf("GZIP ENTER\n")
-
+		logmy.OutLogDebug(fmt.Errorf("gzip enter GzipHandle"))
 		headerCode := strings.Split(r.Header.Get("Accept-Encoding"), ",")
 		for i := range headerCode {
 			headerCode[i] = strings.TrimSpace(headerCode[i])
 		}
-
-		//		fmt.Printf("headerCode=%v\n", headerCode)
-		//		fmt.Printf("headerCode[gzip]=%v\n", slices.IndexFunc(headerCode, func(c string) bool { return c == "gzip" }))
-		//		fmt.Printf("r.Header.Get(Content-Type)=%v\n", w.Header())
 
 		// Для gzip
 		if slices.IndexFunc(headerCode, func(c string) bool { return c == "gzip" }) >= 0 {
@@ -146,7 +142,7 @@ func GzipRead(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// проверяем, что клиент поддерживает gzip-сжатие
 
-		fmt.Printf("GZIP Read ENTER\n")
+		logmy.OutLogDebug(fmt.Errorf("gzip enter GzipRead"))
 
 		if r.Header.Get("Content-Encoding") == "gzip" || r.Header.Get("Content-Encoding") == "flate" {
 			fmt.Printf("GzipRead Header gzip \n")

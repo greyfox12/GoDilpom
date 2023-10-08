@@ -1,11 +1,12 @@
 create table if not exists user_ref (
 	user_id  integer NOT NULL GENERATED ALWAYS AS identity,
 	login 	 varchar(50) not null,
-	user_pass varchar(50) not null,
+	user_pass varchar(150) not null,
 	ballans	  numeric  default 0,
 	withdrawn numeric default 0,
 	PRIMARY KEY (user_id),
-	UNIQUE (login)
+	UNIQUE (login),
+	CONSTRAINT user_ref_check CHECK ((ballans >= (0)::numeric))
 );
 
 create table if not exists orders (
@@ -36,10 +37,10 @@ create table if not exists withdraw(
 create or replace function register( p_login varchar, p_password varchar ) returns integer as $$
  declare ret integer;
  BEGIN
-	INSERT INTO user_ref (login, user_pass)
-    VALUES (p_login,  p_password)
-    ON CONFLICT (login) DO NOTHING 
-    returning user_id into ret;
+		INSERT INTO user_ref (login, user_pass)
+	    VALUES (p_login,  p_password)
+	    ON CONFLICT (login) DO NOTHING 
+	    returning user_id into ret;
    
    if ret  is null then return 409;
    	          else return 200;

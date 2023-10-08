@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"go.uber.org/zap"
+	"go.uber.org/zap/zapcore"
 )
 
 type (
@@ -47,6 +48,9 @@ func Initialize(level string) error {
 	// создаём новую конфигурацию логера
 	cfg := zap.NewProductionConfig()
 	cfg.OutputPaths = []string{"stdout", "./logs.txt"}
+	cfg.EncoderConfig.CallerKey = "caller"
+	cfg.EncoderConfig.EncodeLevel = zapcore.CapitalLevelEncoder
+	cfg.EncoderConfig.EncodeDuration = zapcore.SecondsDurationEncoder
 
 	// устанавливаем уровень
 	cfg.Level = lvl
@@ -93,9 +97,45 @@ func RequestLogger(h http.HandlerFunc) http.HandlerFunc {
 	})
 }
 
-func OutLog(errorStr error) {
-	Log.Info("Error:",
+func OutLogDebug(errorStr error) {
+	Log.Debug("Debug:",
 		zap.String("Message", fmt.Sprint(errorStr)),
 	)
 	Log.Sync()
 }
+
+func OutLogInfo(errorStr error) {
+	Log.Info("Info:",
+		zap.String("Message", fmt.Sprint(errorStr)),
+	)
+	Log.Sync()
+}
+
+func OutLogWarn(errorStr error) {
+	Log.Warn("Warn:",
+		zap.String("Message", fmt.Sprint(errorStr)),
+	)
+	Log.Sync()
+}
+
+func OutLogError(errorStr error) {
+	Log.Error("Error:",
+		zap.String("Message", fmt.Sprint(errorStr)),
+	)
+	Log.Sync()
+}
+
+func OutLogFatal(errorStr error) {
+	Log.Fatal("Fatal:",
+		zap.String("Message", fmt.Sprint(errorStr)),
+	)
+	Log.Sync()
+}
+
+/*func OutLog(errorStr error) {
+	Log.Fatal("Fatal:",
+		zap.String("Message", fmt.Sprint(errorStr)),
+	)
+	Log.Sync()
+}
+*/
