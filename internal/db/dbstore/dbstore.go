@@ -312,7 +312,7 @@ func GetWithdrawals(ctx context.Context, db *sql.DB, cfg getparam.APIParam, user
 	var tm time.Time
 	rows, err := dbcommon.QueryDBRet(ctx, db, cfg, "select w.order_number, w.summa, w.uploaded_at "+
 		" from withdraw w "+
-		" where ur.user_id = $1 "+
+		" where w.user_id = $1 "+
 		" order by w.uploaded_at ", userID)
 
 	if err != nil {
