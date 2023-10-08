@@ -41,7 +41,7 @@ func GetRequest(orderNum string, cfg getparam.APIParam) (*TRequest, error) {
 	}
 
 	//	fmt.Printf("Head response: %v\n", response.Header)
-	logmy.OutLogDebug(fmt.Errorf("Head response: %v", response.Header))
+	logmy.OutLogDebug(fmt.Errorf("getrequest: head response: %v", response.Header))
 
 	if response.StatusCode != http.StatusOK {
 		logmy.OutLogDebug(fmt.Errorf("client status request: %v", response.StatusCode))

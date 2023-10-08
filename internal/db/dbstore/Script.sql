@@ -31,6 +31,7 @@ create table if not exists withdraw(
 	UNIQUE (order_number)
 );
 
+/*
 -- Function
 ---------------------------------
 -- User registred
@@ -159,5 +160,5 @@ AS $function$
    return 0;
   end;
    	$function$;
-   
+ */  
 
