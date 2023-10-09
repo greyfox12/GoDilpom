@@ -35,7 +35,7 @@ const (
 	defAccurualSystemAddress = "http://localhost:8090"
 	defLogLevel              = "Debug"
 	defAccurualTimeReset     = 120 //120 секунд - Время до сброса в БД состояния отправленных на обработку ордеров
-	defIntervalAccurual      = 0   // 1 секунд - Задержка перед циклом выбора для отправки на обработку ордеров
+	defIntervalAccurual      = 1   // 1 секунд - Задержка перед циклом выбора для отправки на обработку ордеров
 	defTimeoutContexDB       = 10  // сек. Таймаут для контекста работы c DB
 )
 
