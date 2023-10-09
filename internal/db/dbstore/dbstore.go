@@ -127,7 +127,6 @@ func LoadOrder(ctx context.Context, db *sql.DB, cfg getparam.APIParam, login str
 
 	if rows.Next() {
 		err = rows.Scan(&userIDOrd, &userID)
-		fmt.Printf("load err %v\n", err)
 
 		if err != nil && err != sql.ErrNoRows {
 			logmy.OutLogInfo(fmt.Errorf("get db loadorder function: scan select query: %w", err))

@@ -109,11 +109,11 @@ func serverStart() {
 	// определяем хендлер
 	r.Route("/", func(r chi.Router) {
 		//получение списка загруженных пользователем номеров заказов, статусов их обработки и информации о начислениях
-		r.Get("/api/user/orders", logmy.RequestLogger(getorders.GetOrdersPage(db, apiParam, authGen)))
+		r.Get("/api/user/orders", logmy.RequestLogger(getorders.GetOrdersPage(db, apiParam)))
 		//получение текущего баланса счёта баллов лояльности пользователя
-		r.Get("/api/user/balance", logmy.RequestLogger(getbalance.GetBalancePage(db, apiParam, authGen)))
+		r.Get("/api/user/balance", logmy.RequestLogger(getbalance.GetBalancePage(db, apiParam)))
 		//запрос на списание баллов с накопительного счёта в счёт оплаты нового заказа
-		r.Get("/api/user/withdrawals", logmy.RequestLogger(getwithdrawals.GetWithdrawalsPage(db, apiParam, authGen)))
+		r.Get("/api/user/withdrawals", logmy.RequestLogger(getwithdrawals.GetWithdrawalsPage(db, apiParam)))
 
 		r.Get("/*", logmy.RequestLogger(erroreq.ErrorReq))
 
@@ -122,9 +122,9 @@ func serverStart() {
 		//аутентификация пользователя
 		r.Post("/api/user/login", logmy.RequestLogger(loging.LoginPage(db, apiParam, authGen)))
 		//загрузка пользователем номера заказа для расчёта
-		r.Post("/api/user/orders", logmy.RequestLogger(orders.LoadOrderPage(db, apiParam, authGen)))
+		r.Post("/api/user/orders", logmy.RequestLogger(orders.LoadOrderPage(db, apiParam)))
 		//запрос на списание баллов с накопительного счёта в счёт оплаты нового заказа
-		r.Post("/api/user/balance/withdraw", logmy.RequestLogger(postwithdraw.DebitingPage(db, apiParam, authGen)))
+		r.Post("/api/user/balance/withdraw", logmy.RequestLogger(postwithdraw.DebitingPage(db, apiParam)))
 
 		r.Post("/*", logmy.RequestLogger(erroreq.ErrorReq))
 

@@ -204,6 +204,10 @@ func Autoriz(next http.Handler, authGen AuthGen) http.HandlerFunc {
 		}
 
 		logmy.OutLogDebug(fmt.Errorf("autorization: login %v ", login))
+		// Добавляю логин для дальнейшего использования в хендлере
+		r.Header.Add("LoginUser", login)
 		next.ServeHTTP(w, r)
 	})
 }
+
+//func (h AdvServeHTTP

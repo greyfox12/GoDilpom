@@ -19199,3 +19199,75 @@
 {"level":"WARN","ts":1696860666.7943516,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
 {"level":"INFO","ts":1696860666.7965212,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
 {"level":"INFO","ts":1696860666.7987018,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865244.0691166,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
+{"level":"DEBUG","ts":1696865244.1395237,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:24 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865244.1406224,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865244.1423166,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865244.14343,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=50370363867827 client status request: 204"}
+{"level":"INFO","ts":1696865244.1455069,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865245.1245718,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:25 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865245.1268263,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865245.1291535,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865245.1315691,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"INFO","ts":1696865245.1344252,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865246.1229746,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:26 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865246.1259933,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865246.1283448,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865246.1300495,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"INFO","ts":1696865246.133296,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865247.1244757,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:27 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865247.1270418,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865247.129331,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865247.1321774,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"INFO","ts":1696865247.1357007,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865248.1230612,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:28 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865248.1243782,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865248.1254976,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865248.1265714,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=50370363867827 client status request: 204"}
+{"level":"INFO","ts":1696865248.128149,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865249.1239324,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:29 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865249.1264105,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865249.1286826,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865249.130957,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"INFO","ts":1696865249.1350565,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865250.1242652,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:30 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865250.1265981,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865250.128958,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865250.1313515,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 client status request: 204"}
+{"level":"INFO","ts":1696865250.1349294,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865251.1229575,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:31 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865251.1258852,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865251.1275742,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865251.1299238,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=49927398716 client status request: 204"}
+{"level":"INFO","ts":1696865251.1321805,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865252.123072,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:32 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865252.1247487,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865252.1271164,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865252.1292875,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=50370363867827 client status request: 204"}
+{"level":"INFO","ts":1696865252.131495,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865253.1223693,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"getrequest: head response: map[Content-Type:[text/plain; charset=utf-8] Date:[Mon, 09 Oct 2023 15:27:33 GMT] X-Content-Type-Options:[nosniff]]"}
+{"level":"DEBUG","ts":1696865253.1240456,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client status request: 204"}
+{"level":"WARN","ts":1696865253.1250863,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: client status request: 204"}
+{"level":"INFO","ts":1696865253.129587,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=79927398713 client status request: 204"}
+{"level":"INFO","ts":1696865253.1316876,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db resetorders function: reset 1 orders"}
+{"level":"DEBUG","ts":1696865255.0485287,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
+{"level":"DEBUG","ts":1696865265.9399388,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1696865265.941152,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipHandle"}
+{"level":"DEBUG","ts":1696865265.94278,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipRead"}
+{"level":"DEBUG","ts":1696865265.943809,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in LoginPage"}
+{"level":"DEBUG","ts":1696865265.945346,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1696865265.9465072,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"logingpage: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1696865266.0330849,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"logingpage: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTcxMjQ0NjYsImlhdCI6MTY5Njg2NTI2NiwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.FvXHtWiLScwLtEM6ez4Zq9QeiPJPkuV85G16gX_Inc4"}
+{"level":"INFO","ts":1696865266.0360856,"caller":"logmy/logmy.go:87","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.0922764,"size":0,"status":200}
+{"level":"DEBUG","ts":1696865290.12137,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"INFO","ts":1696865290.1244996,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"generateRandom: token is valid, login: testlogin4"}
+{"level":"DEBUG","ts":1696865290.126043,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"autorization: login testlogin4 "}
+{"level":"DEBUG","ts":1696865290.1271162,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipHandle"}
+{"level":"DEBUG","ts":1696865290.1286674,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipRead"}
+{"level":"DEBUG","ts":1696865290.1302176,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in LoadOrderPage"}
+{"level":"INFO","ts":1696865290.1318007,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"generateRandom: token is valid, login: testlogin4"}
+{"level":"INFO","ts":1696865290.1366642,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"get db loadorder function: order load othes user"}
+{"level":"DEBUG","ts":1696865290.1382637,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"orders load ok: number: 49927398716 ret:409"}
+{"level":"INFO","ts":1696865290.139516,"caller":"logmy/logmy.go:87","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0092985,"size":0,"status":409}
+{"level":"DEBUG","ts":1696865798.233301,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
+{"level":"DEBUG","ts":1696868318.9946465,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}

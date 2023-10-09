@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/greyfox12/GoDiplom/internal/api/getparam"
-	"github.com/greyfox12/GoDiplom/internal/api/hash"
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"github.com/greyfox12/GoDiplom/internal/db/dbcommon"
 	"github.com/greyfox12/GoDiplom/internal/db/dbstore"
 )
 
-func GetOrdersPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.HandlerFunc {
+func GetOrdersPage(db *sql.DB, cfg getparam.APIParam) http.HandlerFunc {
 	return func(res http.ResponseWriter, req *http.Request) {
 
+		namefunc := "getorderspage"
 		logmy.OutLogDebug(fmt.Errorf("enter in GetOrdersPage"))
 
 		if req.Method != http.MethodGet {
@@ -28,10 +28,9 @@ func GetOrdersPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http
 		ctx, cancel := context.WithTimeout(context.Background(), time.Duration(cfg.TimeoutContexDB)*time.Second)
 		defer cancel()
 
-		// логин из  токена авторизации
-		login, cod := authGen.CheckAuth(req.Header.Get("Authorization"))
-		if cod != 0 {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+		login := req.Header.Get("LoginUser")
+		if login == "" {
+			logmy.OutLogWarn(fmt.Errorf("%v: error autorization", namefunc))
 			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
@@ -39,7 +38,7 @@ func GetOrdersPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http
 		// Проверка логина по базе
 		userID, err := dbcommon.TestLogin(ctx, db, cfg, login)
 		if err != nil {
-			logmy.OutLogError(fmt.Errorf("orders: db testLogin: %w", err))
+			logmy.OutLogError(fmt.Errorf("%v: db testLogin: %w", namefunc, err))
 			res.WriteHeader(http.StatusBadRequest)
 			return
 		}

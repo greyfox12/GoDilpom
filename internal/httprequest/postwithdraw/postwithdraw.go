@@ -11,7 +11,6 @@ import (
 	"time"
 
 	"github.com/greyfox12/GoDiplom/internal/api/getparam"
-	"github.com/greyfox12/GoDiplom/internal/api/hash"
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"github.com/greyfox12/GoDiplom/internal/db/dbcommon"
 	"github.com/greyfox12/GoDiplom/internal/db/dbstore"
@@ -22,9 +21,10 @@ type TRequest struct {
 	Sum   float32 `json:"sum"`
 }
 
-func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.HandlerFunc {
+func DebitingPage(db *sql.DB, cfg getparam.APIParam) http.HandlerFunc {
 	return func(res http.ResponseWriter, req *http.Request) {
 
+		namefunc := "debitingpage"
 		body := make([]byte, 1000)
 		var err error
 		var vRequest TRequest
@@ -39,10 +39,9 @@ func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.
 		ctx, cancel := context.WithTimeout(context.Background(), time.Duration(cfg.TimeoutContexDB)*time.Second)
 		defer cancel()
 
-		// логин из  токена авторизации
-		login, cod := authGen.CheckAuth(req.Header.Get("Authorization"))
-		if cod != 0 {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+		login := req.Header.Get("LoginUser")
+		if login == "" {
+			logmy.OutLogWarn(fmt.Errorf("%v: error autorization", namefunc))
 			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
@@ -50,27 +49,27 @@ func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.
 		// Проверка логина по базе
 		userID, err := dbcommon.TestLogin(ctx, db, cfg, login)
 		if err != nil {
-			logmy.OutLogError(fmt.Errorf("debitingpage: db testLogin: %w", err))
+			logmy.OutLogError(fmt.Errorf("%v: db testLogin: %w", namefunc, err))
 			res.WriteHeader(http.StatusBadRequest)
 			return
 		}
 
 		if userID == 0 { // Логин не найден в базе
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+			logmy.OutLogWarn(fmt.Errorf("%v: error autorization", namefunc))
 			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
 
 		if req.Header.Get("Content-Type") != "application/json" {
-			logmy.OutLogInfo(fmt.Errorf("debitingpage: incorrect content-type head: %v", req.Header.Get("Content-Type")))
+			logmy.OutLogInfo(fmt.Errorf("%v: incorrect content-type head: %v", namefunc, req.Header.Get("Content-Type")))
 			res.WriteHeader(http.StatusBadRequest)
 			return
 		}
 
 		n, err := req.Body.Read(body)
 		if err != nil && n <= 0 {
-			logmy.OutLogDebug(fmt.Errorf("debitingpage: read body n: %v, Body: %v", n, body))
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: read body request: %w", err))
+			logmy.OutLogDebug(fmt.Errorf("%v: read body n: %v, Body: %v", namefunc, n, body))
+			logmy.OutLogWarn(fmt.Errorf("%v: read body request: %w", namefunc, err))
 			res.WriteHeader(http.StatusUnprocessableEntity)
 			return
 		}
@@ -78,12 +77,12 @@ func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.
 
 		err = json.Unmarshal(body[0:n], &vRequest)
 		if err != nil {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: decode json: %w", err))
+			logmy.OutLogWarn(fmt.Errorf("%v: decode json: %w", namefunc, err))
 			res.WriteHeader(http.StatusUnprocessableEntity)
 			return
 		}
 		if vRequest.Order == "" || vRequest.Sum == 0 {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: empty order/sum: %v/%v", vRequest.Order, vRequest.Sum))
+			logmy.OutLogWarn(fmt.Errorf("%v: empty order/sum: %v/%v", namefunc, vRequest.Order, vRequest.Sum))
 			res.WriteHeader(http.StatusUnprocessableEntity)
 			return
 		}
@@ -92,7 +91,7 @@ func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.
 		// Проверка корректности
 		numeric := regexp.MustCompile(`\d`).MatchString(vRequest.Order)
 		if !numeric {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: number incorrect: %v", vRequest.Order))
+			logmy.OutLogWarn(fmt.Errorf("%v: number incorrect: %v", namefunc, vRequest.Order))
 			res.WriteHeader(http.StatusUnprocessableEntity) //422
 			return
 		}
@@ -107,7 +106,7 @@ func DebitingPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.
 
 		ret, err := dbstore.Debits(ctx, db, cfg, login, userID, vRequest.Order, vRequest.Sum)
 		if err != nil {
-			logmy.OutLogError(fmt.Errorf("debitingpage: db debits: %w", err))
+			logmy.OutLogError(fmt.Errorf("%v: db debits: %w", namefunc, err))
 			res.WriteHeader(http.StatusBadRequest)
 			return
 		}

@@ -9,15 +9,15 @@ import (
 	"time"
 
 	"github.com/greyfox12/GoDiplom/internal/api/getparam"
-	"github.com/greyfox12/GoDiplom/internal/api/hash"
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"github.com/greyfox12/GoDiplom/internal/db/dbcommon"
 	"github.com/greyfox12/GoDiplom/internal/db/dbstore"
 )
 
-func GetWithdrawalsPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http.HandlerFunc {
+func GetWithdrawalsPage(db *sql.DB, cfg getparam.APIParam) http.HandlerFunc {
 	return func(res http.ResponseWriter, req *http.Request) {
 
+		namefunc := "getwithdrawalspage"
 		logmy.OutLogDebug(fmt.Errorf("enter in withdrawalspage"))
 
 		if req.Method != http.MethodGet {
@@ -25,10 +25,9 @@ func GetWithdrawalsPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen)
 			return
 		}
 
-		// логин из  токена авторизации
-		login, cod := authGen.CheckAuth(req.Header.Get("Authorization"))
-		if cod != 0 {
-			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+		login := req.Header.Get("LoginUser")
+		if login == "" {
+			logmy.OutLogWarn(fmt.Errorf("%v: error autorization", namefunc))
 			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
@@ -39,7 +38,7 @@ func GetWithdrawalsPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen)
 		// Проверка логина по базе
 		userID, err := dbcommon.TestLogin(ctx, db, cfg, login)
 		if err != nil {
-			logmy.OutLogError(fmt.Errorf("orders: db testLogin: %w", err))
+			logmy.OutLogError(fmt.Errorf("%v: db testLogin: %w", namefunc, err))
 			res.WriteHeader(http.StatusBadRequest)
 			return
 		}
@@ -50,7 +49,7 @@ func GetWithdrawalsPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen)
 			return
 		}
 
-		logmy.OutLogDebug(fmt.Errorf("withdrawals login: %v return: %v", login, str))
+		logmy.OutLogDebug(fmt.Errorf("%v login: %v return: %v", namefunc, login, str))
 		res.Header().Set("Content-Type", "application/json")
 		res.Write([]byte(str))
 	}
