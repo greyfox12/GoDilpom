@@ -28,11 +28,11 @@ func GetOrdersPage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) http
 		ctx, cancel := context.WithTimeout(context.Background(), time.Duration(cfg.TimeoutContexDB)*time.Second)
 		defer cancel()
 
-		// Получаю токен авторизации
+		// логин из  токена авторизации
 		login, cod := authGen.CheckAuth(req.Header.Get("Authorization"))
 		if cod != 0 {
-			logmy.OutLogWarn(fmt.Errorf("orders: error autorization"))
-			res.WriteHeader(cod)
+			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
 

@@ -17,6 +17,7 @@ type APIParam struct {
 	IntervalAccurual      int    // Интервал в секудах опроса системы начисления баллов
 	LogLevel              string // Уровень логирования
 	TimeoutContexDB       int    // сек. Таймаут для контекста работы c DB
+
 }
 
 func Param(sp *APIParam) APIParam {

@@ -79,8 +79,6 @@ func QueryDBRet(ctx context.Context, db *sql.DB, cfg getparam.APIParam, sqlQuery
 
 		rows, err := db.QueryContext(ctx, sqlQuery, ids...)
 		if err == nil {
-			fmt.Printf("ROWS %v\n", rows)
-			fmt.Printf("ROWSROW %v\n", sqlQuery)
 			return rows, nil
 		}
 

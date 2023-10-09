@@ -24,11 +24,11 @@ func GetBalancePage(db *sql.DB, cfg getparam.APIParam, authGen hash.AuthGen) htt
 			return
 		}
 
-		// Получаю токен авторизации
+		// логин из  токена авторизации
 		login, cod := authGen.CheckAuth(req.Header.Get("Authorization"))
 		if cod != 0 {
-			logmy.OutLogWarn(fmt.Errorf("orders: error autorization"))
-			res.WriteHeader(cod)
+			logmy.OutLogWarn(fmt.Errorf("debitingpage: error autorization"))
+			res.WriteHeader(http.StatusUnauthorized)
 			return
 		}
 

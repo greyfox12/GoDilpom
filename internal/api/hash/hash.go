@@ -3,6 +3,7 @@ package hash
 import (
 	"crypto/rand"
 	"fmt"
+	"net/http"
 	"strconv"
 	"strings"
 	"time"
@@ -11,13 +12,6 @@ import (
 	"github.com/greyfox12/GoDiplom/internal/api/logmy"
 	"golang.org/x/crypto/bcrypt"
 )
-
-// MD5 hash
-/*func GetMD5Hash(text string) string {
-	hash := md5.Sum([]byte(text))
-	return hex.EncodeToString(hash[:])
-}
-*/
 
 // Bcript hash
 func GetBcryptHash(text string) (string, error) {
@@ -45,9 +39,9 @@ type AuthGen struct {
 	Secretkey []byte
 }
 
-type LoginResponse struct {
-	AccessToken string `json:"access_token"`
-}
+//type LoginResponse struct {
+//	AccessToken string `json:"access_token"`
+//}
 
 func (h *AuthGen) Init() error {
 	var err error
@@ -177,15 +171,39 @@ func (h *AuthGen) CheckAuth(token string) (string, int) {
 	}
 
 	if tokenBuf[0] != "Bearer" {
-		logmy.OutLogInfo(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
+		logmy.OutLogInfo(fmt.Errorf("checkauth: unknow type autorization head: %v", tokenBuf[0]))
 		return "", 401
 	}
 
 	login := h.GetUserID(tokenBuf[1])
 	if login == "" {
-		logmy.OutLogInfo(fmt.Errorf("orders: unknow type autorization head: %v", tokenBuf[0]))
+		logmy.OutLogInfo(fmt.Errorf("checkauth: fail getuserid from token: %v", tokenBuf[1]))
 		return "", 401
 	}
 
 	return login, 0
+}
+
+// Autoriz — middleware-авторизация для входящих HTTP-запросов.
+func Autoriz(next http.Handler, authGen AuthGen) http.HandlerFunc {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+
+		logmy.OutLogDebug(fmt.Errorf("enter in Autoriz"))
+		// Пропускаю авторизацию для регистрации и логина
+		if r.URL.String() == "/api/user/register" || r.URL.String() == "/api/user/login" {
+			next.ServeHTTP(w, r)
+			return
+		}
+
+		// Получаю токен авторизации
+		login, cod := authGen.CheckAuth(r.Header.Get("Authorization"))
+		if cod != 0 {
+			logmy.OutLogWarn(fmt.Errorf("autorization: error autorization"))
+			w.WriteHeader(http.StatusUnauthorized)
+			return
+		}
+
+		logmy.OutLogDebug(fmt.Errorf("autorization: login %v ", login))
+		next.ServeHTTP(w, r)
+	})
 }
