@@ -7,8 +7,6 @@ import (
 	"io"
 	"net/http"
 	"time"
-
-	"github.com/greyfox12/GoDiplom/internal/infra/hash"
 )
 
 func (c *BaseController) postRegister() http.HandlerFunc {
@@ -50,7 +48,7 @@ func (c *BaseController) postRegister() http.HandlerFunc {
 
 		c.Loger.OutLogDebug(fmt.Errorf("%v vRegister =%v", namefunc, vRegister))
 
-		if vRegister.PasswordHash, err = hash.GetBcryptHash(vRegister.Password); err != nil {
+		if vRegister.PasswordHash, err = c.Auth.GetBcryptHash(vRegister.Password); err != nil {
 			c.Loger.OutLogError(fmt.Errorf("%v hash password: %w", namefunc, err))
 			res.WriteHeader(http.StatusBadRequest)
 			return

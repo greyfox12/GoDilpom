@@ -12,7 +12,7 @@ import (
 )
 
 // Bcript hash
-func GetBcryptHash(text string) (string, error) {
+func (h *AuthGen) GetBcryptHash(text string) (string, error) {
 	hash, err := bcrypt.GenerateFromPassword([]byte(text), bcrypt.DefaultCost)
 	if err != nil {
 		return "", err
@@ -98,7 +98,7 @@ func (h *AuthGen) GetUserID(tokenString string) (string, error) {
 	return claims.UserLogin, nil
 }
 
-func ValidLunaStr(vpan string) bool {
+func (h *AuthGen) ValidLunaStr(vpan string) bool {
 
 	x := 0
 	s := 0

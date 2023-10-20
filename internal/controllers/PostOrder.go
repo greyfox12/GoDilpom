@@ -9,8 +9,6 @@ import (
 	"regexp"
 	"strconv"
 	"time"
-
-	"github.com/greyfox12/GoDiplom/internal/infra/hash"
 )
 
 func (c *BaseController) postOrder(res http.ResponseWriter, req *http.Request) {
@@ -63,7 +61,7 @@ func (c *BaseController) postOrder(res http.ResponseWriter, req *http.Request) {
 	}
 
 	// Проверка алгоритмом Луна
-	if !hash.ValidLunaStr(string(body)) {
+	if !c.Auth.ValidLunaStr(string(body)) {
 		c.Loger.OutLogInfo(fmt.Errorf("%v: number incorrect luna: %v", namefunc, string(body)))
 		res.WriteHeader(http.StatusUnprocessableEntity) //422
 		return

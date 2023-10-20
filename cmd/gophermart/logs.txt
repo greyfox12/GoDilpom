@@ -20326,3 +20326,21 @@
 {"level":"INFO","ts":1697800883.2997074,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
 {"level":"INFO","ts":1697800884.29707,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
 {"level":"INFO","ts":1697800884.2992764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802018.8856993,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697802018.8856993,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697802020.2358053,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697802020.2406118,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802020.8902922,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697802020.8948233,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802021.8898745,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697802021.893275,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802022.887062,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697802022.8892906,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802023.8884375,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697802023.8906357,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802107.7642283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697802107.7642283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697802109.1248128,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697802109.128656,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697802109.7666993,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697802109.770061,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
