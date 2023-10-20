@@ -1,31 +1,19 @@
 package main
 
 import (
-	"database/sql"
-	"fmt"
-	"log"
-	"net/http"
-	"time"
+	"context"
+	"os/signal"
+	"syscall"
 
 	_ "github.com/jackc/pgx/v5/stdlib"
 
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
-
-	"github.com/greyfox12/GoDiplom/internal/api/compress"
-	"github.com/greyfox12/GoDiplom/internal/api/getparam"
-	"github.com/greyfox12/GoDiplom/internal/api/hash"
-	"github.com/greyfox12/GoDiplom/internal/api/logmy"
-	"github.com/greyfox12/GoDiplom/internal/db/dbstore"
-	"github.com/greyfox12/GoDiplom/internal/getaccrual/client"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/erroreq"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/getbalance"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/getorders"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/getwithdrawals"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/loging"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/orders"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/postwithdraw"
-	"github.com/greyfox12/GoDiplom/internal/httprequest/register"
+	accrual "github.com/greyfox12/GoDiplom/internal/GetAccrual"
+	adapters "github.com/greyfox12/GoDiplom/internal/adapters/db"
+	"github.com/greyfox12/GoDiplom/internal/controllers"
+	infradb "github.com/greyfox12/GoDiplom/internal/infra/db"
+	"github.com/greyfox12/GoDiplom/internal/infra/getparam"
+	"github.com/greyfox12/GoDiplom/internal/infra/hash"
+	"github.com/greyfox12/GoDiplom/internal/infra/logmy"
 )
 
 // Конфигурация по умолчанию
@@ -46,8 +34,9 @@ func main() {
 
 // Запускаю сервер
 func serverStart() {
-	var db *sql.DB
+	//	var db *sql.DB
 	var authGen hash.AuthGen
+	var DBadapter adapters.DBAdapter
 	var err error
 
 	// Собрать конфигурацию приложения из Умолчаний, ключей и Переменнных среды
@@ -64,74 +53,48 @@ func serverStart() {
 	apiParam = getparam.Param(&apiParam)
 
 	// Инициализирую логирование
-	if ok := logmy.Initialize(apiParam.LogLevel); ok != nil {
+	log := new(logmy.Log)
+	log, ok := log.Initialize(apiParam.LogLevel)
+	if ok != nil {
 		panic(ok)
 	}
 
 	// Подключение к БД
-	db, err = sql.Open("pgx", apiParam.DSN)
+	adap, err := DBadapter.Init(apiParam.DSN, apiParam.TimeoutContexDB)
 	if err != nil {
-		logmy.OutLogFatal(err)
+		log.OutLogFatal(err)
 		panic(err)
 	}
-	defer db.Close()
-
-	if err = dbstore.CreateDB(db, apiParam); err != nil {
-		logmy.OutLogFatal(err)
-		panic(err)
-	}
+	defer adap.DB.Close()
 
 	// Инициация шифрования
 	if err = authGen.Init(); err != nil {
-		logmy.OutLogFatal(err)
+		log.OutLogFatal(err)
 		panic(err)
 	}
 
-	// запускаю Опрос системы начисления баллов
-	if apiParam.IntervalAccurual > 0 {
-		go func(*sql.DB, getparam.APIParam) {
-
-			if apiParam.IntervalAccurual > 0 {
-				ticker := time.NewTicker(time.Second * time.Duration(apiParam.IntervalAccurual))
-				defer ticker.Stop()
-				for {
-					client.GetOrderNumber(db, apiParam)
-					<-ticker.C
-				}
-			}
-		}(db, apiParam)
+	controller := controllers.NewBaseController(adap, &apiParam, log, &authGen)
+	// Миграция схемы
+	if err = infradb.MigrateSchema(controller.DB.DB); err != nil {
+		log.OutLogFatal(err)
+		panic(err)
 	}
 
-	r := chi.NewRouter()
-	r.Use(middleware.StripSlashes)
-	//	r.Use(hash.Autoriz)
+	r := controller.Route()
+	//	log.OutLogInfo(fmt.Errorf("start Server %v", apiParam.ServiceAddress))
 
-	// определяем хендлер
-	r.Route("/", func(r chi.Router) {
-		//получение списка загруженных пользователем номеров заказов, статусов их обработки и информации о начислениях
-		r.Get("/api/user/orders", logmy.RequestLogger(getorders.GetOrdersPage(db, apiParam)))
-		//получение текущего баланса счёта баллов лояльности пользователя
-		r.Get("/api/user/balance", logmy.RequestLogger(getbalance.GetBalancePage(db, apiParam)))
-		//запрос на списание баллов с накопительного счёта в счёт оплаты нового заказа
-		r.Get("/api/user/withdrawals", logmy.RequestLogger(getwithdrawals.GetWithdrawalsPage(db, apiParam)))
+	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
+	defer stop()
 
-		r.Get("/*", logmy.RequestLogger(erroreq.ErrorReq))
+	// запускаю Опрос системы начисления баллов
+	if apiParam.IntervalAccurual > 0 {
+		go func() {
+			accrual.RunAccurual(ctx, controller)
+		}()
+	}
 
-		// регистрация пользователя
-		r.Post("/api/user/register", logmy.RequestLogger(register.RegisterPage(db, apiParam, authGen)))
-		//аутентификация пользователя
-		r.Post("/api/user/login", logmy.RequestLogger(loging.LoginPage(db, apiParam, authGen)))
-		//загрузка пользователем номера заказа для расчёта
-		r.Post("/api/user/orders", logmy.RequestLogger(orders.LoadOrderPage(db, apiParam)))
-		//запрос на списание баллов с накопительного счёта в счёт оплаты нового заказа
-		r.Post("/api/user/balance/withdraw", logmy.RequestLogger(postwithdraw.DebitingPage(db, apiParam)))
-
-		r.Post("/*", logmy.RequestLogger(erroreq.ErrorReq))
-
-	})
-
-	fmt.Printf("Start Server %v\n", apiParam.ServiceAddress)
-
-	hd := compress.GzipHandle(compress.GzipRead(r))
-	log.Fatal(http.ListenAndServe(apiParam.ServiceAddress, hash.Autoriz(hd, authGen)))
+	// Запускаю сервер HTTP
+	if err := controllers.RunServer(ctx, controller, r); err != nil {
+		log.OutLogFatal(err)
+	}
 }

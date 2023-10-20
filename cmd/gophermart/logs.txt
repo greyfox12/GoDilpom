@@ -19271,3 +19271,1058 @@
 {"level":"INFO","ts":1696865290.139516,"caller":"logmy/logmy.go:87","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0092985,"size":0,"status":409}
 {"level":"DEBUG","ts":1696865798.233301,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
 {"level":"DEBUG","ts":1696868318.9946465,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
+{"level":"DEBUG","ts":1697393207.7707324,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"create DB shema"}
+{"level":"WARN","ts":1697393209.1570117,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393209.15882,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 1 sec"}
+{"level":"WARN","ts":1697393211.4776943,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393211.4799857,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 3 sec"}
+{"level":"WARN","ts":1697393215.8060396,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393215.8106532,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 5 sec"}
+{"level":"WARN","ts":1697393222.1358945,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697393222.1397314,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=374652346956782346957823694857692364857368475368 Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393222.142066,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393222.1438322,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 1 sec"}
+{"level":"DEBUG","ts":1697393223.1470988,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393223.1508212,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 3 sec"}
+{"level":"DEBUG","ts":1697393226.159908,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393226.161458,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 5 sec"}
+{"level":"DEBUG","ts":1697393231.169874,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"ERROR","ts":1697393231.1724524,"caller":"logmy/logmy.go:122","msg":"Error:","Message":"get db resetorders function: execute select query: context deadline exceeded","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:122\ngithub.com/greyfox12/GoDiplom/internal/db/dbcommon.ResetOrders\n\tc:/GoDiplom/internal/db/dbcommon/dbcommon.go:142\ngithub.com/greyfox12/GoDiplom/internal/getaccrual/client.GetOrderNumber\n\tc:/GoDiplom/internal/getaccrual/client/client.go:127\nmain.serverStart.func1\n\tc:/GoDiplom/cmd/gophermart/main.go:96"}
+{"level":"WARN","ts":1697393232.5077581,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393232.509373,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 1 sec"}
+{"level":"WARN","ts":1697393234.8276925,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393234.830216,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 3 sec"}
+{"level":"WARN","ts":1697393239.1622663,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393239.164123,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 5 sec"}
+{"level":"WARN","ts":1697393245.511528,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697393245.5134249,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=49927398716 Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393245.5145478,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393245.5160913,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 1 sec"}
+{"level":"DEBUG","ts":1697393246.5184271,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393246.5227783,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 3 sec"}
+{"level":"DEBUG","ts":1697393249.525856,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393249.5277774,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 5 sec"}
+{"level":"DEBUG","ts":1697393254.5375917,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"ERROR","ts":1697393254.5386503,"caller":"logmy/logmy.go:122","msg":"Error:","Message":"get db resetorders function: execute select query: context deadline exceeded","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:122\ngithub.com/greyfox12/GoDiplom/internal/db/dbcommon.ResetOrders\n\tc:/GoDiplom/internal/db/dbcommon/dbcommon.go:142\ngithub.com/greyfox12/GoDiplom/internal/getaccrual/client.GetOrderNumber\n\tc:/GoDiplom/internal/getaccrual/client/client.go:127\nmain.serverStart.func1\n\tc:/GoDiplom/cmd/gophermart/main.go:96"}
+{"level":"WARN","ts":1697393255.892422,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393255.8951855,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 1 sec"}
+{"level":"WARN","ts":1697393258.2188542,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393258.2199104,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 3 sec"}
+{"level":"WARN","ts":1697393262.5554724,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393262.558192,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 5 sec"}
+{"level":"WARN","ts":1697393268.886922,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697393268.8888123,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=50370363867827 Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393268.8911898,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393268.8929622,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 1 sec"}
+{"level":"DEBUG","ts":1697393269.8962479,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393269.8995402,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 3 sec"}
+{"level":"DEBUG","ts":1697393272.6494465,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1697393272.6516032,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipHandle"}
+{"level":"DEBUG","ts":1697393272.6526685,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipRead"}
+{"level":"DEBUG","ts":1697393272.6537156,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in LoginPage"}
+{"level":"DEBUG","ts":1697393272.6553211,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697393272.6563478,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"loginpage: login/passwd: testlogin/test"}
+{"level":"INFO","ts":1697393272.6832147,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"loginpage: compare password and hash incorrect"}
+{"level":"INFO","ts":1697393272.6847763,"caller":"logmy/logmy.go:87","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.0310605,"size":0,"status":401}
+{"level":"DEBUG","ts":1697393272.9132063,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393272.9149566,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 5 sec"}
+{"level":"DEBUG","ts":1697393277.9286737,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"ERROR","ts":1697393277.931991,"caller":"logmy/logmy.go:122","msg":"Error:","Message":"get db resetorders function: execute select query: context deadline exceeded","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:122\ngithub.com/greyfox12/GoDiplom/internal/db/dbcommon.ResetOrders\n\tc:/GoDiplom/internal/db/dbcommon/dbcommon.go:142\ngithub.com/greyfox12/GoDiplom/internal/getaccrual/client.GetOrderNumber\n\tc:/GoDiplom/internal/getaccrual/client/client.go:127\nmain.serverStart.func1\n\tc:/GoDiplom/cmd/gophermart/main.go:96"}
+{"level":"WARN","ts":1697393279.2628825,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393279.2665322,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 1 sec"}
+{"level":"WARN","ts":1697393281.588021,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393281.5905972,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 3 sec"}
+{"level":"DEBUG","ts":1697393283.5200434,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1697393283.5274336,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipHandle"}
+{"level":"DEBUG","ts":1697393283.5297377,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"gzip enter GzipRead"}
+{"level":"DEBUG","ts":1697393283.531759,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"enter in LoginPage"}
+{"level":"DEBUG","ts":1697393283.5351846,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697393283.5374074,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"loginpage: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1697393283.635503,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"loginpage: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc2NTI0ODMsImlhdCI6MTY5NzM5MzI4MywiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.Ga_ZgiCQ9gcSkQdQcWlaPxUj2DxfcUzsUwIUEG245uE"}
+{"level":"INFO","ts":1697393283.6390755,"caller":"logmy/logmy.go:87","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.1073166,"size":0,"status":200}
+{"level":"WARN","ts":1697393285.9022043,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393285.9057395,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"client pause: 5 sec"}
+{"level":"WARN","ts":1697393292.2255745,"caller":"logmy/logmy.go:115","msg":"Warn:","Message":"post send message: Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697393292.2292979,"caller":"logmy/logmy.go:108","msg":"Info:","Message":"client: get data accrpall: orderNum=79927398713 Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","ts":1697393292.2312317,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393292.233653,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 1 sec"}
+{"level":"DEBUG","ts":1697393293.237289,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"db resendDB: context deadline exceeded"}
+{"level":"DEBUG","ts":1697393293.2410135,"caller":"logmy/logmy.go:101","msg":"Debug:","Message":"pause: 3 sec"}
+{"level":"INFO","ts":1697567934.9599192,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"Start Server localhost:8080\n"}
+{"level":"INFO","ts":1697567964.2255764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"Start Server localhost:8080"}
+{"level":"INFO","ts":1697568063.0788302,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"Start Server localhost:8080"}
+{"level":"INFO","ts":1697568066.3632567,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/","duration":0,"size":0,"status":404}
+{"level":"INFO","ts":1697568742.6519523,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697568748.5979714,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/","duration":0.0006857,"size":0,"status":404}
+{"level":"INFO","ts":1697568802.637262,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697568803.7416017,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/","duration":0,"size":0,"status":404}
+{"level":"INFO","ts":1697569665.3908343,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"DEBUG","ts":1697569673.2966702,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in LoginPage"}
+{"level":"INFO","ts":1697569673.5183744,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.2223565,"size":0,"status":200}
+{"level":"INFO","ts":1697569975.0267978,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697571958.4126003,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697571975.098512,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/register","duration":0,"size":0,"status":404}
+{"level":"INFO","ts":1697572034.8457768,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"DEBUG","ts":1697572037.9075549,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in registerPost"}
+{"level":"INFO","ts":1697572038.1185997,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/register","duration":0.2112188,"size":0,"status":409}
+{"level":"INFO","ts":1697572239.5834858,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697575946.2830305,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"DEBUG","ts":1697575965.6869657,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in registerPost"}
+{"level":"INFO","ts":1697575965.773176,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/register","duration":0.0862104,"size":0,"status":409}
+{"level":"INFO","ts":1697576023.6189225,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"DEBUG","ts":1697576027.3098254,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in registerPost"}
+{"level":"INFO","ts":1697576027.3930306,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/register","duration":0.0832051,"size":0,"status":409}
+{"level":"INFO","ts":1697576054.8019812,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/xx","duration":0.0006536,"size":0,"status":404}
+{"level":"INFO","ts":1697649336.56836,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697653830.1498613,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"FATAL","ts":1697653902.2336674,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"open ./internal/db/dbstore/Script.sql: The system cannot find the path specified.","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tC:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tC:/GoDiplom/cmd/gophermart/main.go:81\nmain.main\n\tC:/GoDiplom/cmd/gophermart/main.go:35\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"INFO","ts":1697657205.3431916,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"DEBUG","ts":1697658394.8969765,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697658394.9360268,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697658394.9373167,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697658455.3347204,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"FATAL","ts":1697658455.3362746,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"create db schema: open file: open ./internal/db/dbstore/Script.sql: The system cannot find the path specified.","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tC:/GoDiplom/internal/api/logmy/logmy.go:135\ngithub.com/greyfox12/GoDiplom/internal/infra/db.InitDBShema\n\tC:/GoDiplom/internal/infra/db/initdbshema.go:36\nmain.serverStart\n\tC:/GoDiplom/cmd/gophermart/main.go:79\nmain.main\n\tC:/GoDiplom/cmd/gophermart/main.go:34\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"DEBUG","ts":1697720839.0145943,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697720839.075441,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697720839.0780413,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697722122.0422547,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697722122.09871,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697722122.1008735,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697723439.2867281,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697723439.3434424,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697723439.345239,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697723702.5821064,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697723702.785267,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697723702.7874641,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697723706.7527816,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in loginPost"}
+{"level":"DEBUG","ts":1697723706.7671547,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697723706.769744,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1697723706.9774203,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc5ODI5MDYsImlhdCI6MTY5NzcyMzcwNiwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.av3tlfLr3ceZ1zFQufscvbHGO5uepeRLE5Ieny9GVSs"}
+{"level":"INFO","ts":1697723706.9774203,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.224933,"size":0,"status":200}
+{"level":"DEBUG","ts":1697723762.3551395,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in orderPost"}
+{"level":"WARN","ts":1697723762.356831,"caller":"logmy/logmy.go:121","msg":"Warn:","Message":"orderPost: error autorization: convert userID: strconv.Atoi: parsing \"'\": invalid syntax"}
+{"level":"INFO","ts":1697723762.3588524,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0037128,"size":0,"status":401}
+{"level":"DEBUG","ts":1697723904.703455,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697723904.7651079,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697723904.7748759,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697723909.6336844,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in loginPost"}
+{"level":"DEBUG","ts":1697723909.6352534,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697723909.636998,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1697723909.8368802,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc5ODMxMDksImlhdCI6MTY5NzcyMzkwOSwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.TQJshCv22Mnlc1nC6iG7XFk_-sL4zAcx8bec4E2-wbk"}
+{"level":"INFO","ts":1697723909.8411527,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.2074684,"size":0,"status":200}
+{"level":"DEBUG","ts":1697723935.9958076,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in orderPost"}
+{"level":"ERROR","ts":1697723936.0153186,"caller":"logmy/logmy.go:128","msg":"Error:","Message":"execute select query: ОШИБКА: оператор не существует: character varying = integer (SQLSTATE 42883)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:128\ngithub.com/greyfox12/GoDiplom/internal/controllers.loadOrder\n\tc:/GoDiplom/internal/controllers/orderpost.go:134\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).orderPost\n\tc:/GoDiplom/internal/controllers/orderpost.go:91\ngithub.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).RequestLogger.func1\n\tc:/GoDiplom/internal/api/logmy/logmy.go:89\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).Autoriz.func1\n\tc:/GoDiplom/internal/controllers/autoriz.go:50\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*ChainHandler).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/chain.go:31\ngithub.com/go-chi/chi/v5.(*Mux).routeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:444\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/middleware.StripSlashes.func1\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi@v1.5.5/middleware/strip.go:30\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*Mux).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:90\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipRead.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:157\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipHandle.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:137\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\nnet/http.serverHandler.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\tC:/Program Files/Go/src/net/http/server.go:1995"}
+{"level":"ERROR","ts":1697723936.0174434,"caller":"logmy/logmy.go:128","msg":"Error:","Message":"orderPost: db loadorder: ОШИБКА: оператор не существует: character varying = integer (SQLSTATE 42883)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:128\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).orderPost\n\tc:/GoDiplom/internal/controllers/orderpost.go:93\ngithub.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).RequestLogger.func1\n\tc:/GoDiplom/internal/api/logmy/logmy.go:89\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).Autoriz.func1\n\tc:/GoDiplom/internal/controllers/autoriz.go:50\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*ChainHandler).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/chain.go:31\ngithub.com/go-chi/chi/v5.(*Mux).routeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:444\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/middleware.StripSlashes.func1\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi@v1.5.5/middleware/strip.go:30\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*Mux).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:90\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipRead.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:157\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipHandle.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:137\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\nnet/http.serverHandler.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\tC:/Program Files/Go/src/net/http/server.go:1995"}
+{"level":"INFO","ts":1697723936.019653,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0238452,"size":0,"status":400}
+{"level":"DEBUG","ts":1697724322.4431763,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697724322.538517,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697724322.5410228,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697724331.1596477,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in loginPost"}
+{"level":"DEBUG","ts":1697724331.162262,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697724331.1643515,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: login/passwd: testlogin/test"}
+{"level":"INFO","ts":1697724331.166463,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"loginPost: compare password and hash incorrect"}
+{"level":"INFO","ts":1697724331.1681297,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.0089713,"size":0,"status":401}
+{"level":"DEBUG","ts":1697724345.5457263,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in loginPost"}
+{"level":"DEBUG","ts":1697724345.5478325,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697724345.5502262,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1697724345.752104,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc5ODM1NDUsImlhdCI6MTY5NzcyNDM0NSwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.dDc7yLawgzgEmAaqMOoOUFTqYKLAAhQgs6HMomVirgQ"}
+{"level":"INFO","ts":1697724345.7553995,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.2096548,"size":0,"status":200}
+{"level":"DEBUG","ts":1697724363.3393116,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"WARN","ts":1697724363.3412185,"caller":"logmy/logmy.go:121","msg":"Warn:","Message":"autorization: error autorization: checkauth: unknow format autorization head: Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc5ODM1NDUsImlhdCI6MTY5NzcyNDM0NSwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.dDc7yLawgzgEmAaqMOoOUFTqYKLAAhQgs6HMomVirgQ"}
+{"level":"DEBUG","ts":1697724400.7906375,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1697724400.793573,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"autorization: login testlogin4 "}
+{"level":"DEBUG","ts":1697724400.796649,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in orderPost"}
+{"level":"ERROR","ts":1697724400.7999575,"caller":"logmy/logmy.go:128","msg":"Error:","Message":"execute select query: ОШИБКА: оператор не существует: character varying = integer (SQLSTATE 42883)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:128\ngithub.com/greyfox12/GoDiplom/internal/controllers.loadOrder\n\tc:/GoDiplom/internal/controllers/orderpost.go:134\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).orderPost\n\tc:/GoDiplom/internal/controllers/orderpost.go:91\ngithub.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).RequestLogger.func1\n\tc:/GoDiplom/internal/api/logmy/logmy.go:89\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).Autoriz.func1\n\tc:/GoDiplom/internal/controllers/autoriz.go:48\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*ChainHandler).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/chain.go:31\ngithub.com/go-chi/chi/v5.(*Mux).routeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:444\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/middleware.StripSlashes.func1\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi@v1.5.5/middleware/strip.go:30\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*Mux).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:90\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipRead.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:157\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipHandle.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:137\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\nnet/http.serverHandler.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\tC:/Program Files/Go/src/net/http/server.go:1995"}
+{"level":"ERROR","ts":1697724400.8023732,"caller":"logmy/logmy.go:128","msg":"Error:","Message":"orderPost: db loadorder: ОШИБКА: оператор не существует: character varying = integer (SQLSTATE 42883)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogError\n\tc:/GoDiplom/internal/api/logmy/logmy.go:128\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).orderPost\n\tc:/GoDiplom/internal/controllers/orderpost.go:93\ngithub.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).RequestLogger.func1\n\tc:/GoDiplom/internal/api/logmy/logmy.go:89\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/controllers.(*BaseController).Autoriz.func1\n\tc:/GoDiplom/internal/controllers/autoriz.go:48\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*ChainHandler).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/chain.go:31\ngithub.com/go-chi/chi/v5.(*Mux).routeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:444\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/middleware.StripSlashes.func1\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi@v1.5.5/middleware/strip.go:30\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/go-chi/chi/v5.(*Mux).ServeHTTP\n\tC:/Users/Администратор/go/pkg/mod/github.com/go-chi/chi/v5@v5.0.10/mux.go:90\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipRead.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:157\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\ngithub.com/greyfox12/GoDiplom/internal/api/compress.GzipHandle.func1\n\tc:/GoDiplom/internal/api/compress/compress.go:137\nnet/http.HandlerFunc.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2122\nnet/http.serverHandler.ServeHTTP\n\tC:/Program Files/Go/src/net/http/server.go:2936\nnet/http.(*conn).serve\n\tC:/Program Files/Go/src/net/http/server.go:1995"}
+{"level":"INFO","ts":1697724400.804021,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0073719,"size":0,"status":400}
+{"level":"DEBUG","ts":1697724825.910392,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697724826.002928,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697724826.0064988,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697724830.7336483,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in loginPost"}
+{"level":"DEBUG","ts":1697724830.7362866,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"req.Header: "}
+{"level":"DEBUG","ts":1697724830.7384202,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: login/passwd: testlogin4/test"}
+{"level":"DEBUG","ts":1697724830.9431226,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"loginPost: create token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTc5ODQwMzAsImlhdCI6MTY5NzcyNDgzMCwiVXNlckxvZ2luIjoidGVzdGxvZ2luNCJ9.DB1LfuZexYXqxLTLnjnkJmI0amRa4ZPUGV0JfpXS8Ww"}
+{"level":"INFO","ts":1697724830.9464037,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/login","duration":0.2127554,"size":0,"status":200}
+{"level":"DEBUG","ts":1697724852.9769256,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"WARN","ts":1697724852.9808948,"caller":"logmy/logmy.go:121","msg":"Warn:","Message":"autorization: error autorization: checkauth: no autorization head"}
+{"level":"DEBUG","ts":1697724870.3801198,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1697724870.3826559,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"autorization: login testlogin4 "}
+{"level":"DEBUG","ts":1697724870.38688,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in orderPost"}
+{"level":"DEBUG","ts":1697724870.3928375,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"order load this user"}
+{"level":"DEBUG","ts":1697724870.3941526,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"orderPost load ok: number: 50370363867827 ret:200"}
+{"level":"INFO","ts":1697724870.3967366,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0098154,"size":0,"status":200}
+{"level":"DEBUG","ts":1697724902.4691753,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in Autoriz"}
+{"level":"DEBUG","ts":1697724902.471538,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"autorization: login testlogin4 "}
+{"level":"DEBUG","ts":1697724902.4752705,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"enter in orderPost"}
+{"level":"DEBUG","ts":1697724902.4782624,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"order load othes user"}
+{"level":"DEBUG","ts":1697724902.4802678,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"orderPost load ok: number: 79927398713 ret:409"}
+{"level":"INFO","ts":1697724902.4819362,"caller":"logmy/logmy.go:93","msg":"got incoming HTTP request","method":"POST","path":"/api/user/orders","duration":0.0066658,"size":0,"status":409}
+{"level":"DEBUG","ts":1697725810.4975042,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697725810.5687952,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697725810.5704775,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697726859.1991894,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697726859.2660406,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697726859.2688353,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697728957.809485,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697728957.8508685,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697728957.8525436,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"DEBUG","ts":1697743174.847477,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697743174.8868864,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697743177.2113204,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 Get \"http://localhost:8090/api/orders/374652346956782346957823694857692364857368475368\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697743177.2160416,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 4 orders"}
+{"level":"INFO","ts":1697743178.5209923,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 Get \"http://localhost:8090/api/orders/49927398716\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697743178.5268097,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743179.836014,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 Get \"http://localhost:8090/api/orders/50370363867827\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697743179.839683,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743181.1462138,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 Get \"http://localhost:8090/api/orders/79927398713\": dial tcp [::1]:8090: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","ts":1697743181.1522193,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697743334.3019161,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697743334.341227,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697743335.6562517,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697743335.6616077,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 2 orders"}
+{"level":"INFO","ts":1697743336.3477597,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697743336.3513877,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743337.3499842,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697743337.355467,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743338.3441474,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697743338.3465176,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743339.3438318,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697743339.3463876,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697743340.3432975,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697743340.345196,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697743441.9584026,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"FATAL","ts":1697743441.9606085,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"create db schema: open file: open ./internal/db/dbstore/Script.sql: The system cannot find the path specified.","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tC:/GoDiplom/internal/api/logmy/logmy.go:135\ngithub.com/greyfox12/GoDiplom/internal/infra/db.InitDBShema\n\tC:/GoDiplom/internal/infra/db/initdbshema.go:36\nmain.serverStart\n\tC:/GoDiplom/cmd/gophermart/main.go:78\nmain.main\n\tC:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"DEBUG","ts":1697745596.5604126,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697745596.599444,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697745596.600981,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697745596.600981,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697745597.9225411,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697745597.9256172,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697745598.6025014,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697745598.6051283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697745599.6070194,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697745599.6110883,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697745600.6016965,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697745600.6032412,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697745601.602122,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697745601.6043172,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697745602.6056852,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697745602.609462,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697746535.056483,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697746535.0948272,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697746535.0964465,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697746535.0964465,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697746536.4040349,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697746536.4075763,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697746537.100435,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697746537.1049669,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697746538.1010761,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697746538.1054804,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697746539.100638,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697746539.1027699,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697746540.099981,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697746540.101801,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697746541.1015093,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697746541.105498,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697747372.6990829,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697747372.7535286,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697747372.7558331,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697747372.7558331,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697747374.07534,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697747374.0774376,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697747374.7594552,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697747374.7635007,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697747375.758571,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697747375.7616618,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697747376.7606778,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697747376.764143,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697753778.3000863,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697753778.34071,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697753778.3422985,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697753778.3422985,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697753779.6618035,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697753779.6667,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753780.3480992,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697753780.3519943,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753781.3460681,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697753781.3500912,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753782.3442216,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697753782.3464806,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753783.344272,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697753783.346414,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753784.3450184,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697753784.3472173,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753785.3435786,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697753785.3458376,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753786.3453758,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697753786.3482811,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753787.3449607,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697753787.3473341,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753788.3459787,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697753788.3487494,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753789.3434713,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697753789.3457108,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697753790.3444693,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697753790.347195,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697784876.1870086,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697784876.3946788,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697784876.396862,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697784876.396996,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697784877.7739923,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697784877.77981,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697784878.402737,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697784878.4054718,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697784879.4019105,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697784879.4061544,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697784880.3998506,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697784880.402544,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697784881.4001048,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697784881.4027324,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794396.4678056,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697794396.46988,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697794396.46988,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697794397.8273401,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697794397.8324764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794398.47296,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697794398.4750366,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794399.4714131,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697794399.4737134,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794400.4727745,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697794400.4758656,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794401.471551,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697794401.473759,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794439.6187944,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697794439.6205997,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697794439.6205997,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697794440.9737663,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697794440.979256,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794441.622345,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697794441.6244903,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697794442.6261022,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697794442.6295128,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697795042.711222,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697795042.71331,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697795042.71331,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697795044.0641174,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697795044.0663304,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697795044.7164237,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697795044.718749,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697795045.7148702,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697795045.7165918,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697795046.7145267,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697795046.716959,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796064.7057674,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697796064.7082522,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697796064.7082522,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697796066.060971,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796066.0640273,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796066.7122319,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796066.714943,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796067.710512,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796067.7126396,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796119.2890332,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697796119.2906554,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697796119.2906554,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697796120.6412904,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796120.6445706,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796121.2928782,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796121.2957087,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796122.2936952,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796122.2952793,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796123.2950366,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796123.2971103,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796124.2936676,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796124.2965562,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796125.3086069,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796125.3118856,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796126.2933064,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796126.2951393,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796127.2938168,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796127.2962582,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796128.2917233,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796128.294513,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796129.2927203,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796129.294931,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796130.2925966,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796130.2953622,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796131.2930486,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796131.2951403,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796132.2949414,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796132.2988408,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796133.2941458,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796133.2975569,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796134.2948456,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796134.2983544,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796135.295062,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796135.2985513,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796136.2936664,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796136.296553,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796137.2967808,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796137.2992566,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796138.3060756,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796138.3087587,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796139.302632,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796139.3048162,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796140.2930768,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796140.294784,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796141.2926538,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796141.2961783,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796142.2954414,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796142.2985206,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796143.2947543,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796143.2975962,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796144.2934496,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796144.2968078,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796145.2953408,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796145.2991114,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796146.2958724,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796146.2991114,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796147.2938328,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796147.2973495,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796148.294993,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796148.29833,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796149.2949183,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796149.2980313,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796150.293968,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796150.2972448,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796151.2950022,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796151.2978604,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796152.292831,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796152.2947443,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796153.2955108,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796153.2986753,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796154.2964013,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796154.2994673,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796155.294703,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796155.298207,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796156.295004,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796156.2986357,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796157.2958138,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796157.2993517,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796158.2954805,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796158.2983723,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796159.2942603,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796159.2968478,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796160.2963483,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796160.300627,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796161.292988,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796161.2972987,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796162.294385,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796162.2975352,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796163.3006632,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796163.3041396,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796164.2956452,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796164.2989132,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796165.29418,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796165.2972512,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796166.2949889,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796166.2980783,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796167.2963784,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796167.2999513,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796168.295447,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796168.2989397,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796169.2946355,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796169.2988055,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796170.2934952,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796170.296295,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796171.295733,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796171.2992797,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796172.2931485,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796172.2952378,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796173.2957335,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796173.29911,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796174.2932637,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796174.295525,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796175.295016,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796175.2980638,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796176.2945952,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796176.297441,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796177.2937393,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796177.2971332,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796178.293191,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796178.2960765,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796179.2940435,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796179.2974129,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796180.294838,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796180.2979026,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796181.2931895,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796181.2962182,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796182.294316,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796182.298321,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796183.2931376,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796183.295274,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796184.2937567,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796184.2964153,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796185.293017,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796185.2966287,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796186.2922022,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796186.294301,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796187.2930536,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796187.2955549,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796188.2922363,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796188.2949486,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796189.292479,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796189.2947736,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796190.2927427,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796190.2952735,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796191.302382,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796191.3045714,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796192.293813,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796192.2963414,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796193.2941217,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796193.300566,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796194.293147,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796194.2957244,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796195.2931063,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796195.2973008,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796196.2927232,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796196.2954645,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796197.2951741,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796197.298349,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796198.2929006,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796198.2950487,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796199.2927308,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796199.2950122,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796200.2937896,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796200.2967036,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796201.2945423,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796201.2980893,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796202.295702,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796202.2985506,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796203.2938418,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796203.2967207,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796204.2947333,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796204.297643,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796205.2927902,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796205.2959652,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796206.2946017,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796206.2983685,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796207.2958512,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796207.2991285,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796208.291332,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796208.2929635,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796209.2936769,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796209.2955909,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796210.2925315,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796210.2946591,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796211.291432,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796211.29404,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796212.2922008,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796212.2941384,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796213.2945116,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697796213.296733,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796282.1385674,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697796282.1404696,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697796282.1404696,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697796283.4978135,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697796283.501619,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796284.1433618,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697796284.1452305,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697796285.145622,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697796285.150004,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"FATAL","ts":1697796460.1711109,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:88\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796523.76406,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:88\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796623.4515042,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:88\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796654.8206348,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796687.428931,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796808.7457907,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796851.9485455,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\db\\\\migration\": invalid port \":\\\\GoDiplom\\\\db\\\\migration\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796877.2991836,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796894.2896345,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697796959.9302483,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"source driver: unknown driver file (forgotten import?)","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797094.9517386,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"readdir c:\\GoDiplom\\db\\migration\\000001_init_schema.down.sql\\.: The system cannot find the path specified.","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:89\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"INFO","ts":1697797133.1611876,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697797133.1631997,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697797133.1631997,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697797134.4997447,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697797134.5023913,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697797135.1672635,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697797135.1699114,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697797136.1647804,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697797136.167463,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697797137.1701264,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697797137.1740859,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"FATAL","ts":1697797189.4029648,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:94\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797250.1132233,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:95\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797270.7046862,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:96\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:40\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797399.0673122,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:97\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:41\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797481.9318545,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:97\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:41\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697797805.4862795,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"no change","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:98\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:41\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"INFO","ts":1697797937.983119,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start Server localhost:8080"}
+{"level":"INFO","ts":1697797937.9846964,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697797937.9846964,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697797939.3227775,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697797939.3250976,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697797939.990293,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697797939.9942002,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697797940.9874203,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697797940.9902835,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697798335.368476,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697798335.4015014,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697798335.4015014,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697798336.7096472,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697798336.7117972,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798337.4047163,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697798337.4065094,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697798816.7734127,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697798816.92146,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697798816.9215424,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697798818.2433383,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697798818.2490754,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798818.9240506,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697798818.926262,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798819.9253597,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697798819.9291496,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"DEBUG","ts":1697798923.8857234,"caller":"logmy/logmy.go:107","msg":"Debug:","Message":"create DB shema"}
+{"level":"INFO","ts":1697798923.9239075,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697798923.9239075,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697798925.238362,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697798925.2414236,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798925.927872,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697798925.9306276,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798926.9263983,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697798926.929645,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697798927.926875,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697798927.9295604,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"FATAL","ts":1697799245.8001678,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart../../../../db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart..\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697799277.566093,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart../..//../../db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart..\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697799326.0736938,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart/../../db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697799427.5063748,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart/../../db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697799539.681302,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart\\\\..\\\\..\\\\db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart\\\\..\\\\..\\\\db\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"FATAL","ts":1697799808.601452,"caller":"logmy/logmy.go:135","msg":"Fatal:","Message":"parse \"file://c:\\\\GoDiplom\\\\cmd\\\\gophermart/../../db/migration\": invalid port \":\\\\GoDiplom\\\\cmd\\\\gophermart\" after host","stacktrace":"github.com/greyfox12/GoDiplom/internal/api/logmy.(*Log).OutLogFatal\n\tc:/GoDiplom/internal/api/logmy/logmy.go:135\nmain.serverStart\n\tc:/GoDiplom/cmd/gophermart/main.go:80\nmain.main\n\tc:/GoDiplom/cmd/gophermart/main.go:33\nruntime.main\n\tC:/Program Files/Go/src/runtime/proc.go:250"}
+{"level":"INFO","ts":1697799835.2759635,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697799835.2767894,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697799836.7405875,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697799836.747225,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697799837.280926,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697799837.2836316,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697799838.2809572,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697799838.2841833,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697799839.2830837,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697799839.2870934,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800455.1341736,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697800455.1341736,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697800456.4806447,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800456.4846997,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800457.1399508,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800457.143679,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800458.137006,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800458.1399016,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800459.1352308,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800459.1369011,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800460.16409,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800460.1670163,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800461.1388223,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800461.1425877,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800462.1375363,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800462.1410084,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800463.1370163,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800463.1398633,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800464.1381686,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800464.1411932,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800465.1358063,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800465.138601,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800466.1381223,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800466.1414046,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800467.1354816,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800467.138098,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800468.1352563,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800468.1368766,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800469.1393554,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800469.1426327,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800470.1377435,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800470.1411939,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800471.1419535,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800471.144764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800472.136948,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800472.1399753,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800473.1370363,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800473.1400423,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800474.1378431,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800474.1410854,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800475.1372266,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800475.1389956,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800476.1365395,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800476.1387992,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800477.136234,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800477.1387677,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800478.1428506,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800478.145547,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800479.1376057,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800479.1398003,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800480.137547,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800480.1410306,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800481.1392682,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800481.1420305,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800482.1354191,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800482.1376994,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800483.1368842,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800483.139157,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800484.1351514,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800484.138027,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800485.1371303,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800485.1400979,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800486.138251,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800486.141473,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800487.1363392,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800487.1380699,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800488.1366065,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800488.139437,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800489.1367328,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800489.1391933,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800490.1349669,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800490.137118,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800491.157384,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800491.1595893,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800492.135239,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800492.1373725,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800493.1364844,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800493.13879,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800494.1361868,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800494.1383486,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800495.1360528,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800495.1387503,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800496.1358042,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800496.137792,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800497.1357315,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800497.1375632,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800498.1358335,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800498.137608,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800499.136867,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800499.1396031,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800500.1354542,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800500.1381164,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800501.1366374,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800501.1391416,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800502.1350498,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800502.137201,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800503.1375568,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800503.140052,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800504.137067,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800504.140243,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800505.1372666,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800505.1404467,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800506.1394262,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800506.1422315,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800507.1368947,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800507.138454,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800508.1396427,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800508.1425476,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800509.1370027,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800509.1399412,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800510.1366723,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800510.1387417,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800511.1389303,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800511.1423483,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800512.1351762,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800512.137017,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800513.1393802,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800513.142386,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800514.1376472,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800514.1410472,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800515.1381545,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800515.1411543,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800516.1369534,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800516.1402557,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800517.1391513,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800517.1419342,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800518.1382642,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800518.1417682,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800519.138905,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800519.1418753,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800520.1387897,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800520.1421819,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800521.1376903,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800521.1408527,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800522.1372616,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800522.1401033,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800523.1369042,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800523.1396828,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800524.1373901,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800524.1410327,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800525.1401985,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800525.1436887,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800526.1366615,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800526.1404252,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800527.1379824,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800527.141137,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800528.1377475,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800528.1405628,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800529.1391087,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800529.1425488,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800530.1395369,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800530.1425219,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800531.1369224,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800531.1400454,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800532.1374993,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800532.1404383,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800533.1392243,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800533.1423879,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800534.1394956,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800534.1423512,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800535.1383803,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800535.1416395,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800536.1380665,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800536.1410608,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800537.13608,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800537.1385157,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800538.1392963,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800538.14301,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800539.138072,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800539.141606,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800540.1386967,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800540.141497,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800541.1365714,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800541.1402278,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800542.1376235,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800542.1410072,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800543.1371434,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800543.1405454,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800544.13916,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800544.1423476,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800545.1385698,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800545.142103,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800546.1363177,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800546.1397986,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800547.1365633,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800547.1403406,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800548.1389387,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800548.1417441,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800549.1368134,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800549.1399195,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800550.1363316,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800550.139496,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800551.138966,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800551.1421723,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800552.1364686,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800552.1394532,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800553.1382623,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800553.14189,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800554.1388512,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800554.1423259,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800555.1557963,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800555.1593423,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800556.1380785,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800556.1412587,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800557.137532,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800557.1403496,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800558.139421,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800558.1428106,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800559.1376283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800559.1406922,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800560.1387985,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800560.141832,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800561.1364868,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800561.139616,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800562.1365836,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800562.1395466,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800563.1370938,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800563.1393824,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800564.1361105,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800564.1382775,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800565.1655686,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800565.167257,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800566.1428266,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800566.1447635,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800567.1356173,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800567.1387262,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800568.1435726,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800568.1457088,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800569.1383505,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800569.1402385,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800570.1385107,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800570.140964,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800571.138576,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800571.1474051,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800572.1358252,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800572.138075,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800573.1429787,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800573.1451163,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800574.1381602,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800574.1404395,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800575.1383603,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800575.1413486,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800576.1491842,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800576.1520834,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800577.1365876,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800577.1386964,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800578.1358824,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800578.1386812,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800579.1368334,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800579.1393409,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800580.1359272,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800580.1381333,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800581.1371362,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800581.1388824,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800582.136239,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800582.1386263,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800583.1394258,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800583.142811,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800584.1366954,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800584.1394992,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800585.1388364,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800585.1422822,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800586.1396654,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800586.142519,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800587.1374474,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800587.140296,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800588.1394012,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800588.1427233,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800589.1430848,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800589.1451712,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800590.1378546,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800590.1400023,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800591.1373682,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800591.1415126,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800592.135963,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800592.1382453,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800593.162679,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800593.165861,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800594.1366215,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800594.138889,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800595.136796,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800595.1390998,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800596.1371772,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800596.1395283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800597.1375272,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800597.1395688,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800598.1367016,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800598.1399872,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800599.1360755,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800599.1376996,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800600.144623,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800600.147189,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800601.135498,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800601.1384366,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800602.136754,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800602.1395807,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800603.1364474,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800603.1389418,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800604.139709,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800604.1439252,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800605.1393995,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800605.1431026,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800606.137998,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800606.141473,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800607.1352758,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800607.1372113,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800608.1388416,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800608.1421893,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800609.136608,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800609.139819,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800610.1366696,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800610.1402764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800611.1384614,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800611.1419318,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800612.1379302,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800612.1409261,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800613.1383367,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800613.1412833,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800614.1384006,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800614.1413724,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800615.1394238,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800615.1423452,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800616.1381602,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800616.1420903,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800617.13547,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800617.1376853,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800618.1658568,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800618.1679409,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800619.136847,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800619.1398363,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800620.1379323,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800620.1411328,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800621.139173,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800621.1420922,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800622.1376686,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800622.140627,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800623.138018,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800623.1412232,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800624.1400056,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800624.1434677,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800625.1381536,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800625.1417131,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800626.1394665,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800626.1430082,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800627.137391,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800627.1407623,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800628.163622,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800628.1662567,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800629.1367178,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800629.1389508,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800630.1391232,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800630.1414537,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800631.1353555,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800631.1384325,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800632.1385362,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800632.1423068,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800633.1363149,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800633.1402023,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800634.139464,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800634.1424594,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800635.1382048,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800635.1411004,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800636.1389763,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800636.141827,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800637.1367242,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800637.1401374,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800638.1390498,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800638.1421986,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800639.1381857,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800639.140098,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800640.1363125,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800640.1395154,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800641.140402,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800641.143016,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800642.1664035,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800642.168627,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800643.1350906,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800643.1372268,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800644.1354895,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800644.1382256,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800645.1365852,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800645.138752,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800646.1631575,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800646.1657987,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800647.136125,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800647.1384003,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800648.1356773,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800648.138158,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800649.1371658,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800649.1399622,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800650.1370158,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800650.1399841,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800651.1366425,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800651.1388433,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800652.1351821,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800652.1374643,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800653.1374505,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800653.1390197,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800654.1351817,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800654.1377683,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800655.1367772,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800655.139671,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800656.1382003,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800656.1405282,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800657.1352384,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800657.1379275,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800658.1362407,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800658.1379943,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800659.1374977,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800659.1407669,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800660.1385262,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800660.1421092,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800878.29546,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"listening on localhost:8080"}
+{"level":"INFO","ts":1697800878.29546,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"start RunAccurual on http://localhost:8090"}
+{"level":"INFO","ts":1697800879.6305962,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800879.6433687,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800880.2983036,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800880.3023388,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800881.297776,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=49927398716 request status: 204"}
+{"level":"INFO","ts":1697800881.3015838,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800882.2983322,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=50370363867827 request status: 204"}
+{"level":"INFO","ts":1697800882.3004048,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800883.2970283,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=79927398713 request status: 204"}
+{"level":"INFO","ts":1697800883.2997074,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
+{"level":"INFO","ts":1697800884.29707,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: getRequest: orderNum=374652346956782346957823694857692364857368475368 request status: 204"}
+{"level":"INFO","ts":1697800884.2992764,"caller":"logmy/logmy.go:114","msg":"Info:","Message":"orderNumberGet: resetOrdersDB: reset 1 orders"}
